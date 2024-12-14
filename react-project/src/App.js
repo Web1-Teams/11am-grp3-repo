@@ -1,8 +1,6 @@
+
+import Definition from './components/Definition'; 
 import "./App.css";
-
-
-
-import Types from './DiabetesTypes/Types';
 import Photo from './components/Photo';
 import Card from "./components/Card";
 import Nav from './components/Nav';
@@ -17,11 +15,11 @@ function App() {
       {/* Header */}
       <Hheadar />
 
-      {/* Types Section */}
       
-        <Types />
     
-
+    {/* definition*/}
+      <Definition/>
+    
       {/* Cards Section */}
       <div >
         {/* card 1 */}
@@ -67,7 +65,9 @@ function App() {
       {/* Photo Section */}
       <Photo />
     </>
+
   );
 }
 
 export default App;
+
