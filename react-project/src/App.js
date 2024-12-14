@@ -1,6 +1,11 @@
 import "./App.css";
 import logo from './logo.svg';
 
+
+import Photo from './components/Photo';
+
+
+
 import Card from "./components/Card";
 import Nav from './components/Nav';
 import Hheadar from './components/Hheadar';
@@ -55,7 +60,9 @@ function App() {
           view={false}
         />
       </div>
+  <Photo/>
     </>
+
   );
 }
 
