@@ -2,7 +2,7 @@ import "./App.css";
 
 
 
-import Types from './DiabetesTypes/Types';
+import Types from './components/Types';
 import Photo from './components/Photo';
 import Card from "./components/Card";
 import Nav from './components/Nav';
