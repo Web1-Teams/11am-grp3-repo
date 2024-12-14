@@ -1,11 +1,9 @@
 import "./App.css";
-import logo from './logo.svg';
 
 
+
+import Types from './DiabetesTypes/Types';
 import Photo from './components/Photo';
-
-
-
 import Card from "./components/Card";
 import Nav from './components/Nav';
 import Hheadar from './components/Hheadar';
@@ -19,8 +17,13 @@ function App() {
       {/* Header */}
       <Hheadar />
 
+      {/* Types Section */}
+      
+        <Types />
+    
+
       {/* Cards Section */}
-      <div className="App">
+      <div >
         {/* card 1 */}
         <Card
           text=" Diabetes is a chronic disease that occurs due to a defect in the secretion or function of insulin, or both. Insulin is a hormone produced by
@@ -60,9 +63,10 @@ function App() {
           view={false}
         />
       </div>
-  <Photo/>
-    </>
 
+      {/* Photo Section */}
+      <Photo />
+    </>
   );
 }
 
