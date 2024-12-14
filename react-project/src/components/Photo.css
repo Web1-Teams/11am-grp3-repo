@@ -1,0 +1,15 @@
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 600px) {
+    .top {
+      flex-direction: column;
+      align-items: center;
+    }
+  }  
+  
+  
