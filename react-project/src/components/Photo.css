@@ -11,5 +11,16 @@
       align-items: center;
     }
   }  
-  
+
+  @media (min-width: 601px) and (max-width: 768px) {
+    .dianame {
+      font-size: 40px;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 1400px) {
+    .dianame {
+      font-size: 45px;
+    }
+  }    
+
   
