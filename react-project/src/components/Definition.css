@@ -1,0 +1,19 @@
+.Head_of_def{
+    display: flex;
+   
+}
+.what_is_diabetes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.what_is_diabetes > h1 {
+    font-family: serif;
+    font-size: 2.5rem;
+    font-weight:100;
+}
+ 
