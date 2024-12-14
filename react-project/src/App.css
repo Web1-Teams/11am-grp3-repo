@@ -6,14 +6,6 @@
   height: 40vmin;
   pointer-events: none;
 }
-body{
-  background-image: url(./imges/homebg.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
