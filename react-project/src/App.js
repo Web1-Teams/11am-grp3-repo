@@ -1,4 +1,6 @@
 
+
+import Types from './components/Types';
 import Definition from './components/Definition'; 
 import "./App.css";
 import Photo from './components/Photo';
