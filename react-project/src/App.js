@@ -5,6 +5,7 @@ import Photo from './components/Photo';
 import Card from "./components/Card";
 import Nav from './components/Nav';
 import Hheadar from './components/Hheadar';
+import Title1 from './components/Title1';
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
 
       {/* Photo Section */}
       <Photo />
+      <Title1/>
     </>
 
   );
