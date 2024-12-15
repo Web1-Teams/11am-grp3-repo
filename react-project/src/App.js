@@ -5,6 +5,7 @@ import Definition from './components/Definition';
 import "./App.css";
 import Photo from './components/Photo';
 import Card from "./components/Card";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -48,10 +49,13 @@ function App() {
           view={false}
         />
         <Photo />
+
+        <Footer/>
+        
       </div>
 
     
-   
+
 
   );
 }
