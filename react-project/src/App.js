@@ -4,7 +4,7 @@ import Card from "./components/Card";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       {/* card 1 */}
       <Card
         text=" Diabetes is a chronic disease that occurs due to a defect in the secretion or function of insulin, or both. Insulin is a hormone produced by
