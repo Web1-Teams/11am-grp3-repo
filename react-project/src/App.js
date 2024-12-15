@@ -1,10 +1,12 @@
 import "./App.css";
 
 import Card from "./components/Card";
+import Ways from "./components/Ways";
 
 function App() {
   return (
     <div>
+      <Ways />
       {/* card 1 */}
       <Card
         text=" Diabetes is a chronic disease that occurs due to a defect in the secretion or function of insulin, or both. Insulin is a hormone produced by
