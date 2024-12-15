@@ -5,29 +5,14 @@ import Definition from './components/Definition';
 import "./App.css";
 import Photo from './components/Photo';
 import Card from "./components/Card";
-import Nav from './components/Nav';
-import Hheadar from './components/Hheadar';
 
 function App() {
   return (
-    <>
-      {/* Navbar */}
-      <Nav />
-
-      {/* Header */}
-      <Hheadar />
-
-      
-    
-    {/* definition*/}
-      <Definition/>
-    
-      {/* Cards Section */}
-      <div >
-        {/* card 1 */}
-        <Card
-          text=" Diabetes is a chronic disease that occurs due to a defect in the secretion or function of insulin, or both. Insulin is a hormone produced by
-          the pancreas that helps regulate blood glucose levels by enabling cells to absorb glucose for energy. In diabetes, either the body doesn’t
+    <div className="App">
+      {/* card 1 */}
+      <Card
+        text=" Diabetes is a chronic disease that occurs due to a defect in the secretion or function of insulin, or both. Insulin is a hormone produced by
+         the pancreas that helps regulate blood glucose levels by enabling cells to absorb glucose for energy. In diabetes, either the body doesn’t
           produce enough insulin, as in Type 1 diabetes, or the cells become resistant to insulin, as in Type 2 diabetes. This defect leads to high 
           blood glucose levels, increasing the risk of serious health problems such as heart disease, nerve damage, and kidney disease."
           title="About Diabetes"
@@ -62,11 +47,11 @@ function App() {
           image="/photos/project.jpg"
           view={false}
         />
+        <Photo />
       </div>
 
-      {/* Photo Section */}
-      <Photo />
-    </>
+    
+   
 
   );
 }
