@@ -1,3 +1,12 @@
+
+import Types from './components/Types';
+import Definition from './components/Definition'; 
+import "./App.css";
+import Photo from './components/Photo';
+import Card from "./components/Card";
+import Nav from './components/Nav';
+import Hheadar from './components/Hheadar';
+import Title1 from './components/Title1';
 import NutritionCard from "./components/NutritionistCard";
 import "./App.css";
 import Photo from './components/Photo';
@@ -52,6 +61,14 @@ function App() {
           image="/photos/project.jpg"
           view={false}
         />
+        <Footer/>
+        
+      </div>
+
+      {/* Photo Section */}
+      <Photo />
+      <Title1/>
+    </>
 
         <Photo />
         <Footer />
