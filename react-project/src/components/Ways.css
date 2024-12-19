@@ -1,0 +1,33 @@
+#bg-Ways {
+  background-color: rgb(223, 232, 247);
+  font-family: serif;
+}
+.title-part2 {
+  color: #224aa1e4;
+}
+@media (min-width: 0) and (max-width: 1400px) {
+  .card {
+    width: 70%;
+  }
+  .title2 {
+    flex-direction: column;
+  }
+  .title {
+    width: 90%;
+  }
+  .bg-ways {
+    flex-direction: column;
+  }
+}
+
+.title2 {
+  text-align: center;
+  color: hsla(221, 88%, 67%, 0.894);
+
+  top: 0;
+  background-color: rgb(255, 255, 255);
+
+  border: solid 10px rgb(172, 193, 247);
+  margin: 2pc;
+  padding: 10px 10px;
+}
