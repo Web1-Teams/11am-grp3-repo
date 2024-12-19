@@ -1,7 +1,7 @@
 import React from "react";
-import "./SocialIcons.css";
+import "./SocialIcon.css";
 
-const  SocialIcons= () => {
+const  SocialIcon= () => {
   const icons = [
     {
       href: "https://www.facebook.com/?locale=ar_AR",
@@ -31,5 +31,5 @@ const  SocialIcons= () => {
   );
 };
 
-export default SocialIcons;
+export default SocialIcon;
 
