@@ -3,20 +3,11 @@
 import Types from './components/Types';
 import Definition from './components/Definition'; 
 import "./App.css";
-import Titell21 from "./components/Titell21";
-import CardTips from "./components/CardTips";
-// videos
-import video from './video/vid(1).mp4'; 
-import video2 from './video/vid(2).mp4'; 
-import video3 from './video/vid(3).mp4'; 
-import video4 from './video/vid(4).mp4'; 
-import video5 from './video/vid(5).mp4'; 
-import video6 from './video/vid(6).mp4'; 
-import video7 from './video/vid(7).mp4'; 
-import video8 from './video/vid(8).mp4'; 
-
-
-
+import Photo from './components/Photo';
+import Card from "./components/Card";
+import Nav from './components/Nav';
+import Hheadar from './components/Hheadar';
+import Title1 from './components/Title1';
 
 function App() {
   return (
@@ -65,8 +56,10 @@ function App() {
         
       </div>
 
-    
-
+      {/* Photo Section */}
+      <Photo />
+      <Title1/>
+    </>
 
   );
 }
