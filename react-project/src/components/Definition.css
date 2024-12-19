@@ -1,8 +1,8 @@
-.Head_of_def{
+.Head_of_def {
     display: flex;
-   
 }
-.what_is_diabetes{
+
+.what_is_diabetes {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,10 +10,38 @@
     width: 100%;
 }
 
-
 .what_is_diabetes > h1 {
     font-family: serif;
     font-size: 2.5rem;
-    font-weight:100;
+    font-weight: 100;
 }
+
+@media (max-width: 768px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+        background-size: contain; 
+    }
+
+    .what_is_diabetes > h1 {
+        font-size: 2rem;
+    }
+
+    .Head_of_def {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .what_is_diabetes > h1 {
+        font-size: 3rem; 
+    }
+}
+
  
