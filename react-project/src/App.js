@@ -6,7 +6,6 @@ import Photo from './components/Photo';
 import Card from "./components/Card";
 import Nav from './components/Nav';
 import Hheadar from './components/Hheadar';
-
 import Title1 from './components/Title1';
 import NutritionCard from "./components/NutritionistCard";
 import "./App.css";
@@ -21,29 +20,8 @@ import Inputlabel2 from './components/Inputlabel2';
 function App() {
   return ( 
     <div className="App">
-
-      <div className="d-flex flex-row justify-content-around">
-        <NutritionCard
-          name="Hala Jadallah"
-          description="Nutritionist She holds a bachelor’s degree from An-Najah National University. She has a professional practice degree and 4 years of experience in the field of nutrition."
-          email="hala.23.jadallah@gmail.com"
-        />
-        <NutritionCard
-          name="Jenan Hawawre"
-          description="Bachelor’s degree in Nutrition and Food Processing with a cumulative grade point
-                    average of (3.25/4) in the first place"
-          email="jenanhawawreh7@gmail.com"
-        />
-        <NutritionCard
-          name="Heba Dawod"
-          description="Bachelor of Nutrition and Food Processing An-Najah National University | 2017-2021 Cumulative Average 3.59 from 4"
-          email="hebadawod2017@gmail.com"
-        />
-      </div>
-
-      {/* Definition Component */}
-      <Definition/>
-
+    <Nav/>
+    <Hheader/>
       {/* Cards Section */}
       <div>
         <Card
@@ -72,21 +50,37 @@ function App() {
           title="About Project"
           image="/photos/project.jpg"
           view={false}
-        />
+        /> </div>
+             <Photo />
         <Footer/>
+             {/* Definition Component */}
+      <Definition/>
         
-        <EmailPassword/>
+       
 
       </div>
-
+  <div className="d-flex flex-row justify-content-around">
+        <NutritionCard
+          name="Hala Jadallah"
+          description="Nutritionist She holds a bachelor’s degree from An-Najah National University. She has a professional practice degree and 4 years of experience in the field of nutrition."
+          email="hala.23.jadallah@gmail.com"
+        />
+        <NutritionCard
+          name="Jenan Hawawre"
+          description="Bachelor’s degree in Nutrition and Food Processing with a cumulative grade point
+                    average of (3.25/4) in the first place"
+          email="jenanhawawreh7@gmail.com"
+        />
+        <NutritionCard
+          name="Heba Dawod"
+          description="Bachelor of Nutrition and Food Processing An-Najah National University | 2017-2021 Cumulative Average 3.59 from 4"
+          email="hebadawod2017@gmail.com"
+        />
+      </div>
+     <EmailPassword/>
+            
       {/* Photo Section */}
-      <Photo />
-      <Title1/>
-  
-
-        <Photo />
-        <Footer />
-       
+      <Title1/> 
    <Button/>
         <Inputlabel labeltitel="User name " labelfor="username" inputtype="text" inputname="txt" imagg="/photozeinad/icons8-name-48.png" />
     <Inputlabel labeltitel="Family name " labelfor="family name" inputtype="text" inputname="txt" imagg="/photozeinad/icons8-name-48.png" />
@@ -110,7 +104,7 @@ function App() {
     <Inputlabel labeltitel="Select a time of dinner " labelfor="appt5" inputtype="time" inputname="time" imagg="/photozeinad/icons8-cutlery-32.png" />
     <br/>
     
-      </div>
+    
     </div>
   )
 
