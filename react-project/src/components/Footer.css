@@ -1,0 +1,40 @@
+.Footer {
+    background-color: #68d4e9;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    font-family: serif;
+}
+
+.Footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+social-icon {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #333;
+}
+
+.number p {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+}
+
