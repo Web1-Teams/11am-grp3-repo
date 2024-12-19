@@ -18,10 +18,15 @@ import Ways from './components/Ways'
 function App() {
   return ( 
     <div className="App">
+
       {/* home page */}
       <Hheadar/>
       <Nav/>
       
+
+    
+      {/* Cards Section */}
+
       <div>
         
       <Card 
@@ -47,6 +52,7 @@ function App() {
           title="About Project"
           image="/photos/project.jpg"
           view={false}
+
         />
         </div>
         <Photo />
@@ -54,7 +60,10 @@ function App() {
         <Footer/>
         {/* difintion page*/}
 
-<Definition/>
+       
+             {/* Definition Component */}
+      <Definition/>
+        
 <Types/>
 {/* type2 page */}
       <div className="d-flex flex-row justify-content-around">
@@ -75,6 +84,7 @@ function App() {
           email="hebadawod2017@gmail.com"
         />
       </div>
+
 {/* tips page*/}
       <Titell21/>
       <Ways/>
@@ -83,6 +93,10 @@ function App() {
       <SocialIcon/>
     <Button titel="Log in"/>
 {/* sign up page*/}
+  
+     
+            
+     
         <Inputlabel labeltitel="User name " labelfor="username" inputtype="text" inputname="txt" imagg="/photozeinad/icons8-name-48.png" />
     <Inputlabel labeltitel="Family name " labelfor="family name" inputtype="text" inputname="txt" imagg="/photozeinad/icons8-name-48.png" />
     <br/>
@@ -104,8 +118,11 @@ function App() {
     <br/>
     <Inputlabel labeltitel="Select a time of dinner " labelfor="appt5" inputtype="time" inputname="time" imagg="/photozeinad/icons8-cutlery-32.png" />
     <br/>
+
     <Button titel="Sign up "/>
-      </div>
+     
+    </div>
+
   )
 
 }
