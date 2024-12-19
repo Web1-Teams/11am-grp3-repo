@@ -13,7 +13,7 @@ import Photo from './components/Photo';
 import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Definition from "./components/Definition"; 
-
+import Button from './components/Button'
 function App() {
   return (
     <div className="App">
@@ -68,13 +68,17 @@ function App() {
       {/* Photo Section */}
       <Photo />
       <Title1/>
-    </>
+  
 
         <Photo />
         <Footer />
+       
+   <Button/>
       </div>
     </div>
-  );
+  )
+
+
 }
 
 export default App;
