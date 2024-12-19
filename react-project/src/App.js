@@ -14,9 +14,11 @@ import Card from "./components/Card";
 import Footer from "./components/Footer";
 import Definition from "./components/Definition"; 
 import Button from './components/Button'
+import EmailPassword from "./components/Emailpassword";
 function App() {
-  return (
+  return ( 
     <div className="App">
+
       <div className="d-flex flex-row justify-content-around">
         <NutritionCard
           name="Hala Jadallah"
@@ -43,6 +45,13 @@ function App() {
       <div>
         <Card
           text="Diabetes is a chronic disease that occurs due to a defect in the secretion or function of insulin, or both..."
+      {/* card 1 */}
+      <Card
+        text=" Diabetes is a chronic disease that occurs due to a defect in the secretion or function of insulin, or both. Insulin is a hormone produced by
+          the pancreas that helps regulate blood glucose levels by enabling cells to absorb glucose for energy. In diabetes, either the body doesn’t
+          produce enough insulin, as in Type 1 diabetes, or the cells become resistant to insulin, as in Type 2 diabetes. This defect leads to high 
+          blood glucose levels, increasing the risk of serious health problems such as heart disease, nerve damage, and kidney disease."
+
           title="About Diabetes"
           image="/photos/db.jpg"
           btn="Read More"
@@ -63,6 +72,8 @@ function App() {
         />
         <Footer/>
         
+        <EmailPassword/>
+
       </div>
 
       {/* Photo Section */}
