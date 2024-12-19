@@ -1,11 +1,9 @@
 
-
-import Types from './components/Types';
-import Definition from './components/Definition'; 
 import "./App.css";
 import Photo from './components/Photo';
 import Card from "./components/Card";
 import Footer from "./components/Footer";
+import SocialIcons from "./components/SocialIcons";
 
 function App() {
   return (
@@ -51,7 +49,7 @@ function App() {
         <Photo />
 
         <Footer/>
-        
+        <SocialIcons/>
       </div>
 
     
