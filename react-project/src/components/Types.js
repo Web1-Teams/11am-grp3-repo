@@ -1,6 +1,6 @@
 import './Types.css';
 import image from '../images/Types.jpg'
-import Button from './Button';
+import Button from './Button1';
 
 const Types = () => {
     return (
