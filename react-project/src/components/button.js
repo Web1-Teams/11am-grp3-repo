@@ -1,4 +1,4 @@
-import './button.css';
+import './Button.css';
 
 const Button = (props) => {
     return (<a target="_blank" href="Type1.html" class="button">
