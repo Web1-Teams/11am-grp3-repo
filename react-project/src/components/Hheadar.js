@@ -1,5 +1,5 @@
 import React from 'react'
-import '../FirstComponents.css';
+import './FirstComponents.css';
 import logo from '../imges/logo-home.png'
 const Hheadar = () => {
   return (
