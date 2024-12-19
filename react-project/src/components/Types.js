@@ -1,6 +1,7 @@
 import './Types.css';
 import image from '../images/Types.jpg'
-import Button from './button'
+import Button from './Button1';
+
 const Types = () => {
     return (
         <div class="Types_of_diabetes">
