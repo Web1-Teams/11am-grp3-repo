@@ -1,13 +1,9 @@
 
 
-import Types from './components/Types';
-import Definition from './components/Definition'; 
 import "./App.css";
-import Photo from './components/Photo';
+
 import Card from "./components/Card";
-import Nav from './components/Nav';
-import Hheadar from './components/Hheadar';
-import Title1 from './components/Title1';
+
 
 function App() {
   return (
@@ -50,16 +46,11 @@ function App() {
           image="/photos/project.jpg"
           view={false}
         />
-        <Photo />
-
-        <Footer/>
         
       </div>
 
-      {/* Photo Section */}
-      <Photo />
-      <Title1/>
-    </>
+     
+   
 
   );
 }
