@@ -1,7 +1,7 @@
-import './button.css';
+import './Button1.css';
 
-const Button = (props) => {
+const Button1 = (props) => {
     return (<a target="_blank" href="Type1.html" class="button">
         {props.text}</a>);
 }
-export default Button
+export default Button1
