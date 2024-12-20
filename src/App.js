@@ -1,7 +1,7 @@
 
 import Types from './components/Types';
 import "./App.css";
-
+import Photo from './components/Photo';
 import Card from "./components/Card";
 import Nav from './components/Nav';
 import Hheadar from './components/Hheadar';
