@@ -1,0 +1,50 @@
+.Meals {
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid black;
+    font-family: serif;
+}
+
+table {
+    width: 100%; 
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px;
+    font-size: 20px;
+    background-color: #fdfdfd;
+    border: 4px solid black;
+    padding: 10px;
+    overflow-x: auto;
+    font-family: serif;
+}
+
+@media (max-width: 768px) {
+    table {
+        width: 95%; 
+        font-size: 18px; 
+    }
+
+    th, td {
+        padding: 8px; 
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        width: 100%; 
+        font-size: 16px; 
+    }
+
+    th, td {
+        padding: 5px; 
+        text-align: left; 
+    }
+
+    .Meals {
+        margin: 5px;
+        padding: 10px;
+    }
+}
+
+
+
