@@ -1,5 +1,4 @@
 import Types from "./components/Types";
-
 import Photo from "./components/Photo";
 import Card from "./components/Card";
 import Nav from "./components/Nav";
@@ -10,14 +9,18 @@ import Footer from "./components/Footer";
 import Definition from "./components/Definition";
 import Button from "./components/Button";
 import EmailPassword from "./components/Emailpassword";
-import Inputlabel from "./components/Inputlabel";
-import Inputlabel2 from "./components/Inputlabel2";
 import SocialIcon from "./components/SocialIcon";
-import Ways from "./components/Ways";
 import CardOptions from "./components/CardOptions";
+import Inputlabel from './components/Inputlabel'
+import Inputlabel2 from './components/Inputlabel2';
+import SocialIcon from './components/SocialIcon';
+import Ways from './components/Ways'
+ 
+
 function App() {
   return (
     <div className="App">
+
       {/* home page */}
       <Hheadar />
       <Nav />
@@ -212,7 +215,7 @@ function App() {
               and arrange your own nutritional schedule 
               for all meals (breakfast, lunch, dinner) 
              
-"
+
           imgoption="/photos/Meal-Planning.jpg"
         />
         <CardOptions
@@ -222,7 +225,7 @@ function App() {
                 that includes a complete menu for breakfast lunch and dinner
                  suits your calories,
 
-"
+
           imgoption="/photos/meal.jpg"
         />
       </div>
