@@ -1,3 +1,5 @@
+
+import Button2 from "./components/Button2";
 import Types from "./components/Types";
 import Photo from "./components/Photo";
 import Card from "./components/Card";
@@ -229,8 +231,15 @@ function App() {
           imgoption="/photos/meal.jpg"
         />
       </div>
+ <div class="spacing">
+        <Button text="Home" />
+        <Button text="Table 1"/>
+        <Button text="Table 2" />
+        <Button text="Profile settings"/>
+    </div>
     </div>
   );
 }
+
 
 export default App;
