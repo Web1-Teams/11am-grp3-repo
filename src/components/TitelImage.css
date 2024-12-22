@@ -1,0 +1,16 @@
+.hh {
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.imggg {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border: 2px solid black;
+    border-radius: 50%;
+}
