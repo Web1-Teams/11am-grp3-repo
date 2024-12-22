@@ -70,17 +70,11 @@
         font-size: 2rem;
     }
 
-    .Head_of_def {
-        flex-direction: column; 
-        align-items: center;
-    }
+    
 }
 
 @media (min-width: 1200px) {
-    body {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+   
 
     .what_is_diabetes > h1 {
         font-size: 3rem; 
