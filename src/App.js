@@ -236,6 +236,7 @@ function App() {
         <Button text="Table 2" />
         <Button text="Profile settings"/>
     </div>
+    
     </div>
   );
 }
