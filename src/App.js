@@ -15,6 +15,7 @@ import Inputlabel from './components/Inputlabel'
 import Inputlabel2 from './components/Inputlabel2';
 import SocialIcon from './components/SocialIcon';
 import Ways from './components/Ways'
+
  
 function App() {
   return ( 
