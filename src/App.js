@@ -15,6 +15,8 @@ import Inputlabel from './components/Inputlabel'
 import Inputlabel2 from './components/Inputlabel2';
 import SocialIcon from './components/SocialIcon';
 import Ways from './components/Ways'
+import Buttonmunual from './components/Buttonmunual';
+import Cardformunual from './components/Cardformunual';
 function App() {
   return ( 
     <div className="App">
@@ -120,7 +122,10 @@ function App() {
     <br/>
 
     <Button titel="Sign up "/>
-     
+    <Cardformunual  imgeitem={['/photoformunual/Untitled.jpg','/photoformunual/avocado.jpg','/photoformunual/cum.jpg','/photoformunual/tomato.jpg','/photoformunual/chesse.webp','/photoformunual/labaneh.jpg','/photoformunual/falafel.jpg','/photoformunual/corn-f.jpg','/photoformunual/milk.jpg']} headerm="The Breakfast" food ={ ['Beard', 'avocado', 'cucumber','Tomato','Cheese',  'labneh', 'falafel', 'corn flakes', 'milk' ]}/> 
+    <Cardformunual  imgeitem={['/photoformunual/kabsa.jpg','/photoformunual/white rice.jpg','/photoformunual/peas.jpg','/photoformunual/molokhya.jpg','/photoformunual/mansaf.jpg','/photoformunual/maqlobeh.jpg','/photoformunual/pasta.jpg','/photoformunual/musakhan.jpg','/photoformunual/pizza.jpg']} headerm="The Lunch" food ={ [ 'Kabsa', 'white rice', 'peas', 'molokhiya', 'mansaf', 'maqlubuh', 'pasta', 'musakhan',  'pizza' ]}/>
+    <Cardformunual  imgeitem={['/photoformunual/Untitled.jpg','/photoformunual/labaneh.jpg','/photoformunual/hummus.jpg','/photoformunual/tomato.jpg','/photoformunual/cum.jpg','/photoformunual/chesse.webp','/photoformunual/tuna.jpg','/photoformunual/zatter.jpg','/photoformunual/EG1.gif']} headerm="The Dinner " food ={ [ 'Bread', 'labaneh', 'hummus', 'tomato', 'cucumber', 'Cheese', 'tuna', 'zatter',  'egg' ]}/>
+
     </div>
 
   )
