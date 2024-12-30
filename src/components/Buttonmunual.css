@@ -1,0 +1,42 @@
+.but-color{
+    font-family: serif;
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.foodbutton{
+  display: inline-block;
+ width: 50%;
+ margin-left: -200px;
+ 
+ 
+ 
+  
+  
+}
+.imaggm{
+    display:inline-block;
+  width: 25px;
+  height: 25px;
+    
+  margin-right: 100px;
+  border-radius: 5px;
+}
+.imaggm:hover{
+  transform: scale(1.75);
+}
+
+.wight {
+  width: 60px;
+  height: 1px;
+  border-radius: 10px;
+  margin-top: 10px;
+  
+  border: #ffffff;
+}
