@@ -19,7 +19,7 @@ import Ways from './components/Ways'
 
 import Buttonmunual from './components/Buttonmunual';
 import Cardformunual from './components/Cardformunual';
-
+import Photo2 from "./components/Photo2";
  
 
 
@@ -137,127 +137,7 @@ function App() {
     <Cardformunual  imgeitem={['/photoformunual/kabsa.jpg','/photoformunual/white rice.jpg','/photoformunual/peas.jpg','/photoformunual/molokhya.jpg','/photoformunual/mansaf.jpg','/photoformunual/maqlobeh.jpg','/photoformunual/pasta.jpg','/photoformunual/musakhan.jpg','/photoformunual/pizza.jpg']} headerm="The Lunch" food ={ [ 'Kabsa', 'white rice', 'peas', 'molokhiya', 'mansaf', 'maqlubuh', 'pasta', 'musakhan',  'pizza' ]}/>
     <Cardformunual  imgeitem={['/photoformunual/Untitled.jpg','/photoformunual/labaneh.jpg','/photoformunual/hummus.jpg','/photoformunual/tomato.jpg','/photoformunual/cum.jpg','/photoformunual/chesse.webp','/photoformunual/tuna.jpg','/photoformunual/zatter.jpg','/photoformunual/EG1.gif']} headerm="The Dinner " food ={ [ 'Bread', 'labaneh', 'hummus', 'tomato', 'cucumber', 'Cheese', 'tuna', 'zatter',  'egg' ]}/>
 
-    </div>
-
-  )
-=======
-      {/* tips page*/}
-      <Titell21 />
-      <Ways />
-      {/* log in page*/}
-      <EmailPassword />
-      <SocialIcon />
-      <Button titel="Log in" />
-      {/* sign up page*/}
-
-      <Inputlabel
-        labeltitel="User name "
-        labelfor="username"
-        inputtype="text"
-        inputname="txt"
-        imagg="/photozeinad/icons8-name-48.png"
-      />
-      <Inputlabel
-        labeltitel="Family name "
-        labelfor="family name"
-        inputtype="text"
-        inputname="txt"
-        imagg="/photozeinad/icons8-name-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Your Email "
-        labelfor="your Email"
-        inputtype="email"
-        inputname="email"
-        imagg="/photozeinad/icons8-email-48.png"
-      />
-      <Inputlabel
-        labeltitel="Password "
-        labelfor="password"
-        inputtype="password"
-        inputname="password"
-        imagg="/photozeinad/icons8-password-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Phone No.: "
-        labelfor="phone"
-        inputtype="tel"
-        inputname=" "
-        imagg="/photozeinad/telephone.png"
-      />
-      <Inputlabel
-        labeltitel="Birthday: "
-        labelfor="birthday"
-        inputtype="date"
-        inputname="birthday"
-        imagg="/photozeinad/date-of-birth.png"
-      />
-      <br />
-      <Inputlabel2
-        labeltitel="Length"
-        labelfor="length"
-        inputname="number"
-        inputtype="number"
-        min="0"
-        step="1"
-        imagg="/photozeinad/icons8-sewing-tape-measure-48.png"
-      />
-      <Inputlabel2
-        labeltitel="Wight"
-        labelfor="wight"
-        inputname="number"
-        inputtype="number"
-        min="0"
-        step="1"
-        imagg="/photozeinad/icons8-scale-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="when you wake up: "
-        labelfor="appt1"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-wake-up-50.png"
-      />
-      <Inputlabel
-        labeltitel="Set your bedtime: "
-        labelfor="appt2"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-bedtime-32.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Select a time of breakfast: "
-        labelfor="appt3"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-coffee-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Select a time of lunch: "
-        labelfor="appt4"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-wrap-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Select a time of dinner "
-        labelfor="appt5"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-cutlery-32.png"
-      />
-      <br />
-
-      <Button titel="Sign up " />
-
-
-      <div>
+    <div>
         <CardOptions
           showT={true}
           options="option 1:"
@@ -287,8 +167,14 @@ function App() {
         <Button text="Profile settings"/>
     </div>
     
+     <Photo2/>
+
     </div>
+  
+
   );
+  
+  
 }
 
 
