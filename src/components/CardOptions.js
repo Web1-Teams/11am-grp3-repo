@@ -10,7 +10,6 @@ const CardOptions = (props) => {
       </p>
     </div>
   ) : null;
-
   return (
     <div>
       {title}
