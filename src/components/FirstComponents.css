@@ -1,11 +1,19 @@
-.top {
+
+:root {
+  --color-1: #B1F0F7;  /* أزرق فاتح جدًا */
+  --color-2: #81BFDA;  /* أزرق فاتح */
+  --color-3: #F5F0CD;  /* أصفر فاتح */
+  --color-4: #FADA7A;  /* أصفر برتقالي */
+}
+
+ .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #c6e7ff;
- 
+   /* background-color: #c6e7ff;*/
+ background-color: var(--color-2);
   }
   .homelogo {
     width: 150px;
@@ -16,7 +24,7 @@
     font-size: 50px;
     margin: 0;
     text-align: center;
-   
+   color:var(--color-1)
  
   }
   #sign {
@@ -26,11 +34,12 @@
     width: 120px;
     
     color: #005f73; 
-    border: 2px solid #005f73; 
+    border: 2px solid/* #005f73; */ var(--color-1);
     text-align: center;
+    color:var(--color-1)
   }
   
   #sign:active {
-    background-color: #005f73; 
-    color: white;
+    background-color: var(--color-1); 
+    color: var(--color-1);
   }
