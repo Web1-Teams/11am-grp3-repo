@@ -15,9 +15,11 @@ import SocialIcon from "./components/SocialIcon";
 import CardOptions from "./components/CardOptions";
 import Inputlabel from './components/Inputlabel'
 import Inputlabel2 from './components/Inputlabel2';
-import SocialIcon from './components/SocialIcon';
 import Ways from './components/Ways'
-import Table from './components/Table';
+
+import Buttonmunual from './components/Buttonmunual';
+import Cardformunual from './components/Cardformunual';
+import Photo2 from "./components/Photo2";
  
 
 
@@ -131,166 +133,18 @@ function App() {
     <br/>
 
     <Button titel="Sign up "/>
+    <Cardformunual  imgeitem={['/photoformunual/Untitled.jpg','/photoformunual/avocado.jpg','/photoformunual/cum.jpg','/photoformunual/tomato.jpg','/photoformunual/chesse.webp','/photoformunual/labaneh.jpg','/photoformunual/falafel.jpg','/photoformunual/corn-f.jpg','/photoformunual/milk.jpg']} headerm="The Breakfast" food ={ ['Beard', 'avocado', 'cucumber','Tomato','Cheese',  'labneh', 'falafel', 'corn flakes', 'milk' ]}/> 
+    <Cardformunual  imgeitem={['/photoformunual/kabsa.jpg','/photoformunual/white rice.jpg','/photoformunual/peas.jpg','/photoformunual/molokhya.jpg','/photoformunual/mansaf.jpg','/photoformunual/maqlobeh.jpg','/photoformunual/pasta.jpg','/photoformunual/musakhan.jpg','/photoformunual/pizza.jpg']} headerm="The Lunch" food ={ [ 'Kabsa', 'white rice', 'peas', 'molokhiya', 'mansaf', 'maqlubuh', 'pasta', 'musakhan',  'pizza' ]}/>
+    <Cardformunual  imgeitem={['/photoformunual/Untitled.jpg','/photoformunual/labaneh.jpg','/photoformunual/hummus.jpg','/photoformunual/tomato.jpg','/photoformunual/cum.jpg','/photoformunual/chesse.webp','/photoformunual/tuna.jpg','/photoformunual/zatter.jpg','/photoformunual/EG1.gif']} headerm="The Dinner " food ={ [ 'Bread', 'labaneh', 'hummus', 'tomato', 'cucumber', 'Cheese', 'tuna', 'zatter',  'egg' ]}/>
 
-    <Table 
-        title="*The table contains 1000 calories" 
-        rows={[
-          { meal: "Breakfast", food: "Half a small Samra cup + two tablespoons of labneh + a small tablespoon of olive oil + a cup of fresh vegetables /A piece of brown toast + a boiled egg + two spoons of avocado + a cup of fresh vegetables/Half a small brown bag + a square of cheese the size of a matchbox + a small spoon of olive oil + a cup of fresh vegetables", insulin: "1 units" },
-          { meal: "Snack 1", food: "Medium banana + half a tablespoon of peanut butter /Medium apple + 10 pistachios /1 kiwi + 6 almonds", insulin: "1 unit" },
-          { meal: "Lunch", food: "10 spoons of rice (2/3 cup) + half a grilled chicken breast without the skin + two scoops of molokhiya /15 tablespoons of bulgur (a cup) + two pieces of turkey meat the size of a matchbox + two scoops of green beans /15 spoons of freekeh + half a grilled chicken breast without the skin + a cup of salad + side vegetables", insulin: "3 units" },
-          { meal: "Snack 2", food: "3 small dates + a cup of low-fat milk/coffee with milk (sugar-free)/Homemade shake (a cup of low-fat milk + a banana)/ A handful of berries + two-thirds of a cup of raw milk", insulin: "1 unit" },
-          { meal: "Dinner", food: "3 spoons of chickpeas + cucumber and carrot sticks /Half a small cup + a square of cheese + vegetables /Half a cup of boiled beans + vegetables", insulin: "1 units" },
-        ]}
-      />
-      <Table 
-        title="*The table contains 1600 calories" 
-        rows={[
-          { meal: "Breakfast", food: "1 cup of milk + half a cup of oats + 1 apple./1 cup of milk + 1 crisp biscuit (without chocolate) + 1 apple./1 cup of milk + 1 slice of bread + 5 strawberries", insulin: "3 units" },
-          { meal: "Snack 1", food: "A cup of corn or cob", insulin: "2 units" },
-          { meal: "Lunch", food: "Grilled chicken breast + grilled vegetables (tomatoes, peppers, carrots, onions) + 3 slices of toast./3 kofta fingers + grilled vegetables (tomatoes, peppers, carrots, onions) + 3 slices of toast./ A cup of tuna fish + 3 slices of toast + vegetables", insulin: "3 units" },
-          { meal: "Snack 2", food: "A handful of nuts, equivalent to 12 pieces.", insulin: "0 units" },
-          { meal: "Dinner", food: "Manakish with oil and thyme, topped with small pieces of cheese + vegetables./2 tablespoons olive oil + thyme + 2 tablespoons labneh + 3 slices of toast./ Boiled egg + 2 tablespoons avocado + 3 slices of toast.", insulin: "3 units" },
-        ]}
-      />
-      <Table 
-        title="*The table contains 1800 calories" 
-        rows={[
-          { meal: "Breakfast", food: "1 small loaf of brown bread + 2 tablespoons avocado + 2 eggs fried with a tablespoon of olive oil + a plate of vegetables./1 small loaf of brown bread + 2 tablespoons of olive oil + thyme + 4 tablespoons of labneh + a plate of vegetables./ Half a loaf of small brown bread + 3 tablespoons of chickpeas + 1 tablespoon of olive oil + 2 cubes of cheese the size of a matchbox + a plate", insulin: "2 units" },
-          { meal: "Snack 1", food: "1 cup of milk or yoghurt + 1 small banana + 10 pistachios./ 1 cup of milk or laban + 3 small dates + half a tablespoon of peanut butter./ 1 cup of milk + half a cup of pomegranate + 6 almonds or cashew nuts.", insulin: "2 units" },
-          { meal: "Lunch", food: "A cup of kabsa rice or maqluba beans (7 to 8 tablespoons) + a whole chicken breast without fat + 2 cups of Arabic salad + 1 cup of yoghurt./ 1 small loaf of brown bread + a tray of potatoes (half a medium-sized potato + a whole chicken breast without fat) + 2 cups of Arabic salad + 1 cup of milk./ A cup of rice (7 to 8 tablespoons) or a loaf and a half of small brown bread + fajitas (cut whole fat-free chicken breast + mixed vegetables, peppers, corn, onions, tomatoes) + 1 cup of milk", insulin: "4 units" },
-          { meal: "Snack 2", food: "Half a cup of balila (cooked chickpeas) or Qadma + 3 dates./ Half a cup of thermos + 1 small apple./Half a cup of cooked beans + 1 orange.", insulin: "2 units" },
-          { meal: "Dinner", food: "1 small loaf of brown bread + 1 boiled egg + 2 tablespoons avocado + plate of vegetables./ 1 loaf of small brown bread + 2 tablespoons of labneh + 1 tablespoon of olive oil + thyme + a plate of vegetables./ 1 small loaf of brown bread + 2 cubes of cheese the size of a matchbox + 10 olives + a plate of vegetables.", insulin: "2 units" },
-        ]}
-      />
-  
-    </div>
-
-  )
-
-      {/* tips page*/}
-      <Titell21 />
-      <Ways />
-      {/* log in page*/}
-      <EmailPassword />
-      <SocialIcon />
-      <Button titel="Log in" />
-      {/* sign up page*/}
-
-      <Inputlabel
-        labeltitel="User name "
-        labelfor="username"
-        inputtype="text"
-        inputname="txt"
-        imagg="/photozeinad/icons8-name-48.png"
-      />
-      <Inputlabel
-        labeltitel="Family name "
-        labelfor="family name"
-        inputtype="text"
-        inputname="txt"
-        imagg="/photozeinad/icons8-name-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Your Email "
-        labelfor="your Email"
-        inputtype="email"
-        inputname="email"
-        imagg="/photozeinad/icons8-email-48.png"
-      />
-      <Inputlabel
-        labeltitel="Password "
-        labelfor="password"
-        inputtype="password"
-        inputname="password"
-        imagg="/photozeinad/icons8-password-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Phone No.: "
-        labelfor="phone"
-        inputtype="tel"
-        inputname=" "
-        imagg="/photozeinad/telephone.png"
-      />
-      <Inputlabel
-        labeltitel="Birthday: "
-        labelfor="birthday"
-        inputtype="date"
-        inputname="birthday"
-        imagg="/photozeinad/date-of-birth.png"
-      />
-      <br />
-      <Inputlabel2
-        labeltitel="Length"
-        labelfor="length"
-        inputname="number"
-        inputtype="number"
-        min="0"
-        step="1"
-        imagg="/photozeinad/icons8-sewing-tape-measure-48.png"
-      />
-      <Inputlabel2
-        labeltitel="Wight"
-        labelfor="wight"
-        inputname="number"
-        inputtype="number"
-        min="0"
-        step="1"
-        imagg="/photozeinad/icons8-scale-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="when you wake up: "
-        labelfor="appt1"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-wake-up-50.png"
-      />
-      <Inputlabel
-        labeltitel="Set your bedtime: "
-        labelfor="appt2"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-bedtime-32.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Select a time of breakfast: "
-        labelfor="appt3"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-coffee-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Select a time of lunch: "
-        labelfor="appt4"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-wrap-48.png"
-      />
-      <br />
-      <Inputlabel
-        labeltitel="Select a time of dinner "
-        labelfor="appt5"
-        inputtype="time"
-        inputname="time"
-        imagg="/photozeinad/icons8-cutlery-32.png"
-      />
-      <br />
-
-      <Button titel="Sign up " />
-
-
-      <div>
+    <div>
         <CardOptions
           showT={true}
           options="option 1:"
           choice=" If you want to choose your own meals 
               choose your own foods 
               and arrange your own nutritional schedule 
-              for all meals (breakfast, lunch, dinner) 
+              for all meals (breakfast, lunch, dinner) "
              
 
           imgoption="/photos/Meal-Planning.jpg"
@@ -300,7 +154,7 @@ function App() {
           options="option 2:"
           choice=" If you want us to give you a ready-made schedule 
                 that includes a complete menu for breakfast lunch and dinner
-                 suits your calories,
+                 suits your calories,"
 
 
           imgoption="/photos/meal.jpg"
@@ -312,8 +166,15 @@ function App() {
         <Button text="Table 2" />
         <Button text="Profile settings"/>
     </div>
+    
+     <Photo2/>
+
     </div>
+  
+
   );
+  
+  
 }
 
 
