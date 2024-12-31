@@ -1,5 +1,5 @@
-import "./DibitesSection.css"
- export default function DibitesSection (){
+import "./DibitesSection.css";
+  function DibitesSection (){
     return(
         <>
   {/*Definition of diabetes*/}
@@ -17,7 +17,7 @@ import "./DibitesSection.css"
         </p>
       </div>
     </div>
-    <img src="/Images/diabetes.jpg" alt="" width={1150} />
+    <img src="./Images/diabetes.jpg" alt="" width={1150} />
   </div>
   {/*Definition of insulin*/}
   <div className="insulin">
@@ -35,5 +35,6 @@ import "./DibitesSection.css"
   </div>
 </>
 
-    )
+    );
 }
+export default  DibitesSection;
