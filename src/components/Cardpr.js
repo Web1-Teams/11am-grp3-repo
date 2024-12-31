@@ -1,5 +1,7 @@
 import React from 'react';
-import './Cardpr.css'; // استيراد ملف الـ CSS
+import './Cardpr.css'; 
+import Button2  from "./Button2";// استيراد ملف الـ CSS
+
 
 function Cardpr() {
   return (
@@ -11,10 +13,15 @@ function Cardpr() {
                 src="https://via.placeholder.com/500"
                 className="img-fluid rounded-circle"
                 alt="..."
+
               />
-
+ <div class="spacing">
+        <Button2 text="Home" />
+        <Button2 text="Table 1"/>
+        <Button2 text="Table 2" />
+        <Button2 text="Profile settings"/>
           </div>
-
+          </div>
           <div className="col-md-8">
             <div className="card-body">
               <h5 className="card-title">Personal Information</h5>
@@ -59,10 +66,14 @@ function Cardpr() {
                 <span className="label">Diabetes Type:</span>
                 <span className="value">Type 1</span>
               </div>
+            
             </div>
           </div>
         </div>
-      </div>
+       
+          
+    </div>
+
   );
 }
 

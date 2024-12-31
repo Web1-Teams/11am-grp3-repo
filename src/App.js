@@ -1,9 +1,11 @@
-import HomePages from "./components/Pages/HomePages";
+// import HomePages from "./components/Pages/HomePages";
+import ProfilePages from "./components/Pages/ProfilePages";
 
 
 function App() {
   return (
-   <HomePages/>
+  //  <HomePages/>
+   <ProfilePages/>
 
   );
   
