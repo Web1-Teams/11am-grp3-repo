@@ -1,0 +1,25 @@
+.signup1
+{
+width:700px ;
+height: 1250px;
+margin: auto;
+border-radius: 10px;
+margin-top: 10px;
+background-color: rgb(244, 247, 247);
+}
+
+.formforsignup{
+    border-radius: 10px;
+    width: 700px;
+    height: 1250px;
+    /*text-align: center;
+    justify-content: center;
+    align-items: center;*/
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+}
+.headerforsignup{
+    margin: 30px 300px ;
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(16, 137, 211);
+}
