@@ -28,5 +28,3 @@ const Table = ({ title, rows }) => {
 };
 
 export default Table;
-
-
