@@ -6,7 +6,7 @@ import Footer from "../Footer"
 
 function HomePages(){
 
-    return(
+    return( 
         <>
         <Hheadar/>
         <Nav/>
