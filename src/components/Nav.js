@@ -1,7 +1,7 @@
 import './Nav.css'
 const Nav = () => {
     return(
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary" id="navbarcolor">
       <div className="container-fluid">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -12,7 +12,7 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <a className="nav-link active" aria-current="page" href="#" id="zzz">Home</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Tips About Diabetes</a>
@@ -34,7 +34,7 @@ const Nav = () => {
           </ul>
           <form className="d-flex" role="search">
             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-            <button className="btn btn-outline-success"
+            <button className="btn btn-outline-success " id="buttonnavbar"
               type="submit">Search</button>
           </form> </div> </div> </nav>
     )

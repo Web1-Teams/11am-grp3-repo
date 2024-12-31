@@ -1,0 +1,20 @@
+.headerformunual{
+font-family: serif;
+padding-top: 30px;
+}
+.breakfast{
+	
+	text-align: center;
+	margin-left: 250px;
+    margin-right: 250px;
+	background-image: url(/public/photoformunual/photo_2024-12-10_19-31-28.jpg);
+	background-size: 100%;
+	background-position-y: 60%;
+    background-color: rgb(234, 245, 241);
+    height: 300px;
+	border-radius: 20px;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.breakfast:hover  {
+	transform: scale(1.1)
+}
