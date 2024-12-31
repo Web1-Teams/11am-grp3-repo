@@ -1,0 +1,99 @@
+:root {
+    --primary-color: #000000;
+    --secondary-color: #B8E3F3;
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --accent-blue: #B8E3F3;
+    --white-color: #FFFFFF;
+    --hover-color: rgba(184, 227, 243, 0.2);
+}
+:root {
+    --primary-color: #000000;
+    --secondary-color: #B8E3F3;
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --accent-blue: #B8E3F3;
+}
+.exercise-card {
+    background-color: var(--background-color);
+    border-radius: 12px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: var(--text-color);
+    box-sizing: border-box; 
+    margin-top: 1.5rem !important;
+}
+
+.exercise-image {
+    background-color: var(--secondary-color);
+    aspect-ratio: 1;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.exercise-title {
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.mark-done-btn {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    width: auto;
+    padding: 8px 24px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+}
+
+.challenge-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.15rem 1.75rem rgba(0, 0, 0, 0.1);
+    background-color: var(--background-color);
+}
+
+.challenge-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.15);
+    background-color: var(--hover-color);
+}
+
+.row {
+    gap: 0;
+}
+
+
+.row {
+    row-gap: 1rem;
+}
+.exercise-card:hover {
+    background-color: var(--hover-color);
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+}
+
+.mark-done-btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+} 
+
+@media (max-width: 768px) {
+    .exercise-card {
+        margin-bottom: 20px;
+    }
+    .col-md-6 {
+        padding: 0 15px;
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .container {
+        display: grid;
+        padding: 1rem;}
+
+}
+
+

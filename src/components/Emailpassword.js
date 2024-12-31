@@ -1,4 +1,5 @@
 import './Emailpassword.css';
+import SelectUI from './SelectUI';
 
 function Emailpassword () {
     return (
@@ -13,6 +14,7 @@ function Emailpassword () {
                 <label htmlFor ="password" className="password"> password</label>
                 <input type="password" className ="password" placeholder ="Your Password" required id="password"/>
             </div>
+          
         </form>
     );
 }

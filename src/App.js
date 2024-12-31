@@ -15,6 +15,10 @@ import Inputlabel from './components/Inputlabel'
 import Inputlabel2 from './components/Inputlabel2';
 import SocialIcon from './components/SocialIcon';
 import Ways from './components/Ways'
+import DibitesSection from './components/DibitesSection';
+import SelectUI, { activityLevel, contries, gender } from './components/SelectUI';
+import ProfileSettings from './components/ProfilSetting';
+import FintnessChallenge from './components/FintnessChallenge';
 function App() {
   return ( 
     <div className="App">
@@ -118,11 +122,17 @@ function App() {
     <br/>
     <Inputlabel labeltitel="Select a time of dinner " labelfor="appt5" inputtype="time" inputname="time" imagg="/photozeinad/icons8-cutlery-32.png" />
     <br/>
+    <SelectUI htmlFor="countries" id="countries" name="countries" label="Country" imgsource="/Images/contries.png" options={contries}/>
+    <SelectUI htmlFor="activite" id="activite" name="activite" label="Activit level" imgsource="/Images/stretching-exercises.png" options={activityLevel}/>
+    <SelectUI htmlFor="gender" id="gender" name="gender" label="Gender" imgsource="/Images/gender.png" options={gender}/>
+     <Button titel="Sign up "/>
 
-    <Button titel="Sign up "/>
-     
+    <DibitesSection/>
+    <ProfileSettings/>
+    
+   <FintnessChallenge/>
     </div>
-
+   
   )
 
 }
