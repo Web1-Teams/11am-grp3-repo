@@ -1,10 +1,12 @@
-import HomePages from "./components/Pages/HomePages";
+import DibitesSection from "./components/DibitesSection";
 
 
 function App() {
   return (
-   <HomePages/>
-
+    <div>
+   <DibitesSection/>
+    
+   </div>
   );
   
   
