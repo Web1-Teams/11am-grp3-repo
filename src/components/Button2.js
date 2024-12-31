@@ -1,8 +1,8 @@
 import './Button2.css';
 
-const Button =(props)=>{
+const Button2 =(props)=>{
     return(
-        <button type="button" class="btn btn-primary btn-custom">{props.text}</button>
+        <button type="button" className=" btn-primary btn-custom">{props.text}</button>
     );
 }
-export default Button;
+export default Button2;

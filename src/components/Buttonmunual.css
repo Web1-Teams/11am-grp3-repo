@@ -12,8 +12,9 @@
 }
 .foodbutton{
   display: inline-block;
- width: 50%;
- margin-left: -200px;
+ width:380px;
+ margin-left: -100px;
+margin-right: 20px;
  
  
  
@@ -32,11 +33,12 @@
   transform: scale(1.75);
 }
 
-.wight {
+.wight1{
   width: 60px;
   height: 1px;
   border-radius: 10px;
   margin-top: 10px;
+  height: 20px;
   
   border: #ffffff;
 }
