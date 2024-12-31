@@ -36,12 +36,13 @@
   }
 }
 
-/* cards*/
+
 .About-Diabetes {
   margin: 20px auto;
   padding: 20px;
   border-radius: 10px;
-  background-color: #c6e7ff;
+ /* background-color: #C9E6F0;*/
+ background-color: var(--color-1);
   max-width: 1000px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -100,13 +101,12 @@
 
 .btn-2 {
   margin-top: 10px;
-  background: #004dff;
-  background: linear-gradient(0deg, #898b90 0%, #005f73 100%);
+  background-color:var(--color-4);
   border: none;
 }
 
 .custom-btn:hover {
-  background: linear-gradient(90deg, #005f73, #003f50);
+  background: linear-gradient(90deg, var(--color-3), #003f50);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transform: scale(1.05);
 }

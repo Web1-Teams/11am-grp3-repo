@@ -15,6 +15,33 @@
     font-size: 2.5rem;
     font-weight: 100;
 }
+.start_type1{
+    font-family: serif;
+    display: flex;
+    flex-direction: row;
+}
+.title_type1{
+    font-family: serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.title_type1>h1{
+    font-family: serif;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+ .title_type1 #subTitle {
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+} 
 
 @media (max-width: 768px){
     .Head_of_def {
@@ -80,6 +107,3 @@
         font-size: 3rem; 
     }
 }
-
- 
-

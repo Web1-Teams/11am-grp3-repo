@@ -15,7 +15,7 @@ const Buttonmunual =(props)=>{
     };
     return(
         <div className='foodbutton'>
-            <input type="number" name="number" required min="50"  step="50" className="wight"></input>
+            <input type="number" name="number" required min="50"  step="50" className="wight1"></input>
             <button onClick={checkboxgangecolor} className='but-color' style={{ backgroundColor: color, color: colortext }}> {props.thename}</button>
             <img src={props.imagg2} alt={props.thename} className="imaggm" ></img>
         </div>
