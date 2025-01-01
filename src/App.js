@@ -1,27 +1,22 @@
+import React from "react";
+import { BrowserRouter as Router , Routes, Route } from "react-router-dom";
+ import FoodPaths from "./components/Pages/FoodPaths";
+ import Signuppage from "./components/Pages/Signuppage";
 
- import HomePages from "./components/Pages/HomePages";
 
-
-
-
-function App() {
+const App = () => {
+  
   return (
-
-<>
-<HomePages/>
- 
-   </>
-  );  
-  
-
-  
-  
-
-
-
-
-
-}
+<> 
+<Router>
+      <Routes>
+        <Route path="/Signuppage" element={<Signuppage />} />
+        <Route path="/foodpaths" element={<FoodPaths />} />
+      </Routes>
+    </Router>
+   
+    </>
+  );
+};
 
 export default App;
-
