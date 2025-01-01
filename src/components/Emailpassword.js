@@ -1,5 +1,5 @@
 import './Emailpassword.css';
-import SelectUI from './SelectUI';
+
 
 const Emailpassword =()=> {
     return (
