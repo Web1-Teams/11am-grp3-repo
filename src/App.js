@@ -1,22 +1,34 @@
-
- import HomePages from "./components/Pages/HomePages";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import HomePages from "./components/Pages/HomePages";
+import DiabetesDefinition from "./components/Pages/DiabetesDefinition";
+import TipsPages from "./components/Pages/TipsPages";
+import Type1 from "./components/Pages/Type1";
+import Type2 from "./components/Pages/Type2";
+import Loginpage from "./components/Pages/Loginpage";
 function App() {
   return (
-
-<>
-<HomePages/>
- 
-   </>
-  );  
-  
-
-  
-  
-
+   <>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePages />} />
+        <Route path="/definition" element={<DiabetesDefinition />} />
+        <Route path="/tips" element={<TipsPages />} />
+        <Route path="/type1" element={<Type1 />} />
+        <Route path="/type2" element={<Type2 />} />
+        <Route path="/login" element={<Loginpage />} />
 
 
 
+
+
+
+
+
+      </Routes>
+    </Router>
+   
+    </>
+  );
 }
 
 export default App;
-
