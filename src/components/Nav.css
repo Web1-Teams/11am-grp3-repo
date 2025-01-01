@@ -1,0 +1,37 @@
+.navbar {
+    margin-top: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+   
+  }
+  
+  
+  .nav-link {
+    color: var(--color-2);
+    font-size: 20px;
+  }
+  #zzz{
+    color: var(--color-2);
+  }
+  
+  
+  .btn-outline-success {
+    font-size: 20px;
+  }
+  
+  
+  .form-control {
+    font-size: 16px;
+  }
+  #buttonnavbar{
+   background-color:var(--color-4) ;
+   color :white;
+   height: 40%;
+   margin-top: 15px;
+  }
+  #buttonnavbar:hover {
+    background: linear-gradient(90deg, var(--color-3), var(--color-2));
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }

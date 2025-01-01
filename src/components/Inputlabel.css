@@ -1,0 +1,28 @@
+ .form-groub{
+    font-family: serif;
+    display: inline-block;
+ }
+.lapelforsignup{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 90px;
+    font-size: 15px;
+   margin-bottom: 0px;
+}
+.inputforsignup{
+    width: 130px;
+    background: white;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+    margin-left: 80px;
+    margin-bottom: 25px;
+} 
+.iconn{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 22px;
+}
