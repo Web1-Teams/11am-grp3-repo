@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePages from "./components/Pages/HomePages";
 import DiabetesDefinition from "./components/Pages/DiabetesDefinition";
@@ -18,10 +19,8 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
 
 
-
-
-
-
+   
+  
 
 
       </Routes>
@@ -30,5 +29,8 @@ function App() {
     </>
   );
 }
+
+
+
 
 export default App;
