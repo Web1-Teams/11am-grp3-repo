@@ -7,6 +7,7 @@ import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
+
 function App() {
   return (
    <>
@@ -29,7 +30,7 @@ function App() {
 
       </Routes>
     </Router>
-   
+  
     </>
   );
 }
