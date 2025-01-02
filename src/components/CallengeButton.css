@@ -1,0 +1,40 @@
+.challenge-buttons .btn {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.challenge-buttons .btn:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    transform: translateY(-2px);
+}
+
+.challenge-buttons .btn:hover i.bi {
+    color: var(--background-color);
+}
+
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #B8E3F3;
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --accent-blue: #B8E3F3;
+    --white-color: #FFFFFF;
+    --hover-color: rgba(184, 227, 243, 0.2);
+}
+
+
+.btn-group {
+    width: 100%;
+}
+
+.btn-group {
+    width: 100%;
+}
+
+.btn-group .btn {
+    flex: 1;
+}
