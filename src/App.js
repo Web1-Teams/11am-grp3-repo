@@ -20,12 +20,7 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
         <Route path="/Signuppage" element={<Signuppage />} />
         <Route path="/foodpaths" element={<FoodPaths />} />
-
-
-
-
-
-
+        
 
       </Routes>
     </Router>
