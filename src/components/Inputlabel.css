@@ -2,14 +2,14 @@
     font-family: serif;
     display: inline-block;
  }
- label{
+.lapelforsignup{
     display: flex;
     margin-top: 10px;
     padding-left: 90px;
     font-size: 15px;
    margin-bottom: 0px;
 }
- input{
+.inputforsignup{
     width: 130px;
     background: white;
     border: none;

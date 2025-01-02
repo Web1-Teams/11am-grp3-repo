@@ -1,19 +1,21 @@
 import './Emailpassword.css';
 
-function Emailpassword () {
+
+const Emailpassword =()=> {
     return (
-        <form>
+        <div>
             <div>
-            <label htmlFor ="email" className="email"> Your Email </label>
+            <label  htmlFor ="email" className="emaillabel"> Your Email </label>
             <input type="email" name="email"
-            placeholder="Your Email" required id="email"/>
+            placeholder="Your Email" required className="emailinput"/>
             </div>
 
             <div>
-                <label htmlFor ="password" className="password"> password</label>
-                <input type="password" className ="password" placeholder ="Your Password" required id="password"/>
+                <label htmlFor ="password" className="passwordlabel"> password</label>
+                <input type="password" className ="passwordinput" placeholder ="Your Password" required id="password"/>
             </div>
-        </form>
+            </div>
+        
     );
 }
 

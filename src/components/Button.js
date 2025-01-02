@@ -1,13 +1,13 @@
 
 import './Button.css'
 
-const button=(props)=>{
+const Button=(props)=>{
 
 
 return(
 
 <>
-<button type="submit" class="button-l">{props.titel}</button>
+<button type="submit" className="button-l">{props.titel}</button>
 
 
 </>
@@ -20,4 +20,4 @@ return(
 
 
 }
-export default button;
+export default Button;

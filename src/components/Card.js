@@ -1,8 +1,20 @@
 import "./Card.css";
-import Read from "./Read";
-const Card = (props) => {
-  const show = props.view ? <Read read={props.btn} /> : null;
+import { Link } from "react-router-dom";
 
+
+const Card = (props) => {
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0); 
+  };
+
+  const show = props.view ? (
+    <Link to={props.link} onClick={handleScrollToTop}>
+      <button className="custom-btn btn-2">{props.btn}</button>
+    </Link>
+  ) : null;
+
+
+  
   return (
     <section className="About-Diabetes">
       <div className="cards">
@@ -12,7 +24,7 @@ const Card = (props) => {
         <div className="content2">
           <img src={props.image} className="about-photo" alt="aboutdiabetes" />
           <div className="text-content">
-            <p className="card-text "> {props.text}</p>
+            <p className="card-text">{props.text}</p>
           </div>
         </div>
         {show}
