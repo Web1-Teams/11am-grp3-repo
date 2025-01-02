@@ -1,0 +1,16 @@
+select  {
+    width: 140px !important;
+    margin-right: 10px;
+    height: 40px;
+    border-radius:20px ;
+    box-shadow: #cff0ff 0px 10px 10px -5px;
+    margin-left: 80px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.icon-30{
+    
+    width: 30px;
+    height: 30px;
+  
+}

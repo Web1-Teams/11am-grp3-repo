@@ -1,0 +1,50 @@
+:root {
+    --success-color: #000000; 
+    --success-hover-color: #218838; 
+    --white-color: #ffffff; 
+}
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    border: none;
+    text-decoration: none;
+}
+.btn-success {
+    background-color: var(--success-color);
+    color: var(--white-color);
+}
+
+.btn-success:hover {
+    background-color: var(--success-hover-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn .bi {
+    margin-right: 8px;
+    display: inline-block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 1.5rem; 
+    gap: 100px;
+}

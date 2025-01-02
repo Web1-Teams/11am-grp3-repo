@@ -1,17 +1,28 @@
 .card {
-    background-color:rgb(196, 236, 245);
+    background-color: rgb(196, 236, 245);
     border-radius: 8px;
-    padding:20px;
+    padding: 20px;
     margin: 10px auto;
     text-align: center;
-    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: serif;
+  box-shadow: inset 2px 2px 2px 0px rgba(20, 15, 15, 0.5),
+}
 
-   box-shadow: inset 2px 2px 2px 0px rgba(20, 15, 15, 0.5),
+
+@media (min-width: 0) and (max-width: 2000px) {
+    .card {
+        width: 50%;
+    }
+}
+
+   
    
    
     
   }
-  @media (min-width:0)and (max-width:1400px){
+  @media (min-width:0)and (max-width:2000px){
 
 
     .card{
@@ -19,3 +30,6 @@
       }
     
   }
+
+ 
+
