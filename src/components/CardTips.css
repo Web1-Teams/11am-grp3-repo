@@ -7,10 +7,29 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     font-family: serif;
+  box-shadow: inset 2px 2px 2px 0px rgba(20, 15, 15, 0.5),
 }
+
 
 @media (min-width: 0) and (max-width: 2000px) {
     .card {
         width: 50%;
     }
 }
+
+   
+   
+   
+    
+  }
+  @media (min-width:0)and (max-width:2000px){
+
+
+    .card{
+        width: 50%;
+      }
+    
+  }
+
+ 
+
