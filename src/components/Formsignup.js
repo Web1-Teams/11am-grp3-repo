@@ -55,8 +55,8 @@ const Formsignup = () => {
         <Inputlabel labeltitel="Select a time of dinner " labelfor="appt5" inputtype="time" inputname="time" imagg="/photozeinad/icons8-cutlery-32.png" />
         </div>
         <Link to="/foodpaths" onClick={handleScrollToTop}>
-
         <Button className='buttonforsignup'   titel="Sign up " />
+        </Link>
 
         <Inputlabel labeltitel="User name " labelfor="username" inputtype="text" inputname="txt" imagg="/photozeinad/icons8-name-48.png" />
         <Inputlabel labeltitel="Family name " labelfor="family name" inputtype="text" inputname="txt" imagg="/photozeinad/icons8-name-48.png" />
