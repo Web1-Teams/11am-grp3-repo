@@ -6,9 +6,7 @@
   color: #224aa1e4;
 }
 @media (min-width: 0) and (max-width: 1400px) {
-  .card {
-    width: 70%;
-  }
+ 
   .title2 {
     flex-direction: column;
   }
