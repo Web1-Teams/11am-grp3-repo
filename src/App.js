@@ -7,10 +7,14 @@ import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
+import Definition from "./components/Definition";
+import DibitesSection from "./components/DibitesSection";
+import TypesOfMeals from "./components/TypesOfMeals";
+import BackToChallenges from "./components/BackToChallengesButton";
 function App() {
   return (
    <>
-    <Router>
+     <Router>
       <Routes>
         <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -20,11 +24,14 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
         <Route path="/Signuppage" element={<Signuppage />} />
         <Route path="/foodpaths" element={<FoodPaths />} />
-        
+
 
       </Routes>
-    </Router>
-   
+    </Router> 
+
+
+    
+
     </>
   );
 }
