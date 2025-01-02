@@ -25,3 +25,34 @@
     border: none;
     transition: all 0.2s ease-in-out;
 }
+@media (max-width: 768px){
+    .button-s {
+        margin-left: 70px;
+      }
+      .button-l{
+        width: 60%;
+        margin-top: 10px;
+    }
+
+}
+@media (min-width: 768px){
+    .button-s {
+        margin-left: 100px;
+      }
+
+}
+@media (min-width: 1024px){
+    .button-s{
+        margin-left: 150px;
+    }
+}
+@media(max-width:350px){
+    .button-l{
+width: 30%;
+height: 20%;
+
+}
+
+
+
+}

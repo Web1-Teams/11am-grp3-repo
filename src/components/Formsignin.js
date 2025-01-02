@@ -3,9 +3,15 @@ import SocialIcon from './SocialIcon';
 import Button from './Button';
 import './Formsignin.css'
 import Emailpassword from './Emailpassword';
+import { Link } from "react-router-dom"; 
+
 
 const Formsignin =()=>
     {
+        const handleScrollToTop = () => {
+            window.scrollTo(0, 0); 
+          };
+        
     return(
 <div className="login1">
 <form className='formforsignin'>
@@ -13,11 +19,15 @@ const Formsignin =()=>
 <Emailpassword/>
 <span class="forgot-password"><a href="#">Forgot Password ?</a></span><br></br>
 <SocialIcon/>
+<Link to="/foodpaths" onClick={handleScrollToTop}>
 <Button titel="Log in"/>
-<p class="no-acount">Have an Account? <a class="link" href="index.html">sign up Here!</a></p>
+</Link>
+<p class="no-acount">Have an Account?</p>
+<Link to="/Signuppage" onClick={handleScrollToTop} className='pargh1'>sign up Here!</Link>
 
 </form>
 </div>
 )
 }
 export default Formsignin;
+

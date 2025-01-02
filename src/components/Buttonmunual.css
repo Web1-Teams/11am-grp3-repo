@@ -11,15 +11,11 @@
     
 }
 .foodbutton{
-  display: inline-block;
- width:380px;
- margin-left: -100px;
+display: inline-block;
+width:380px;
+margin-left: -100px;
 margin-right: 20px;
- 
- 
- 
-  
-  
+
 }
 .imaggm{
     display:inline-block;
