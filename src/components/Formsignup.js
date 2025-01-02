@@ -81,8 +81,6 @@ const Formsignup = () => {
         <br />
         <Link to="/foodpaths" onClick={handleScrollToTop}>
         <Button className='headerforsignup'   titel="Sign up " />
-
-       
         </Link>
       </form>
     </div>
