@@ -7,6 +7,7 @@ import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
+import ProfilSettingPage from "./components/Pages/ProfilSettingPage";
 
 
 import TablePage from "./components/Pages/TablePage";
@@ -14,8 +15,9 @@ import TablePage from "./components/Pages/TablePage";
 
 function App() {
   return (
-   <>
+   
     <Router>
+      <>
       <Routes>
       <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -32,9 +34,12 @@ function App() {
 
 
       </Routes>
-    </Router>
-
-    </>
+    
+    
+< ProfilSettingPage/>
+</>
+</Router>
+ 
   );
 }
 export default App;
