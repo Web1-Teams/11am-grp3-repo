@@ -1,10 +1,15 @@
+
  import Hheadar from "../Hheadar"
  import Nav from "../Nav"
  import Footer from "../Footer"
  import CardOptions from "../CardOptions"
- const FoodPaths=()=>{
-return(
+ 
 
+
+
+
+  const FoodPaths=()=>{
+return(
     <div>
          <Hheadar/>
          <Nav/>
@@ -22,6 +27,7 @@ return(
      <CardOptions
       showT={false}
       options="option 2:"
+
      choice=" If you want us to give you a ready-made schedule 
        that includes a complete menu for breakfast lunch and dinner
         suits your calories,"
@@ -29,9 +35,14 @@ return(
 
 
        imgoption="/photos/meal.jpg"
+
+      choice=" If you want us to give you a ready-made schedule 
+            that includes a complete menu for breakfast lunch and dinner
+             suits your calories,"
+      imgoption="/photos/meal.jpg"
+
     />
     <Footer/>
-
   </div>
 
  );
