@@ -1,4 +1,5 @@
-import './TypesOfMeals.css'
+
+import './TypesOfMeals.css';
 const TypesOfMeals =(props)=>{
     return (
         <div class="meal-grid">
@@ -10,7 +11,9 @@ const TypesOfMeals =(props)=>{
                 <input type="text"
                     class="meal-input"
                     placeholder={props.enterString}
+
                     aria-label="Breakfast input" />
+
             </div>
         </div>
 
@@ -18,3 +21,4 @@ const TypesOfMeals =(props)=>{
     )      
 }
 export default TypesOfMeals;
+
