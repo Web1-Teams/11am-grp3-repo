@@ -15,7 +15,7 @@ import TablePage from "./components/Pages/TablePage";
 
 function App() {
   return (
-   
+
     <Router>
       <>
       <Routes>
