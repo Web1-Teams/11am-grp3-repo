@@ -8,13 +8,13 @@ import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
-
+import ProfilSettingPage from "./components/Pages/ProfilSettingPage"
+import ProfilePages from "./components/Pages/ProfilePages"
 
 function App() {
   return (
    <>
      <Router>
-
       <Routes>
       <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -24,10 +24,9 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
         <Route path="/Signuppage" element={<Signuppage />} />
         <Route path="/foodpaths" element={<FoodPaths />} />
-
-
-
-
+        
+        <Route path="/" element={<ProfilSettingPage/>}/>
+        <Route path="/Kenda2.html" element={<ProfilePages/>}/>
 
 
 
