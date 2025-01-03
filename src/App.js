@@ -1,4 +1,3 @@
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePages from "./components/Pages/HomePages";
 import DiabetesDefinition from "./components/Pages/DiabetesDefinition";
@@ -8,30 +7,26 @@ import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
-import TablePage from "./components/Pages/TablePage";
-import Foodsnack from "./components/FoodSnack";
+import ProfilSettingPage from "./components/Pages/ProfilSettingPage";
+
 function App() {
   return (
     <>
-
-    <Router>
-
-      <Routes>
-      <Route path="/" element={<HomePages />} />
-        <Route path="/definition" element={<DiabetesDefinition />} />
-        <Route path="/tips" element={<TipsPages />} />
-        <Route path="/type1" element={<Type1 />} />
-        <Route path="/type2" element={<Type2 />} />
-        <Route path="/login" element={<Loginpage />} />
-        <Route path="/Signuppage" element={<Signuppage />} />
-        <Route path="/foodpaths" element={<FoodPaths />} />
-      <Route path="/tablepage" element={<TablePage/>} />
-      </Routes>
-
-    </Router>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePages />} />
+          <Route path="/definition" element={<DiabetesDefinition />} />
+          <Route path="/tips" element={<TipsPages />} />
+          <Route path="/type1" element={<Type1 />} />
+          <Route path="/type2" element={<Type2 />} />
+          <Route path="/login" element={<Loginpage />} />
+          <Route path="/Signuppage" element={<Signuppage />} />
+          <Route path="/foodpaths" element={<FoodPaths />} />
+          <Route path="/profile" element={<ProfilSettingPage />} />
+        </Routes>
+      </Router>
     </>
-
-    
   );
 }
+
 export default App;

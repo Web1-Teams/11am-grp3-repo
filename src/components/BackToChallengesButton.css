@@ -1,0 +1,22 @@
+.btn-outline-primary {
+    color: #000000;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    box-shadow:0 2px 15px rgba(0, 0, 0, 0.49);
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.bi {
+    margin-right: 5px;
+    color: inherit;
+}
