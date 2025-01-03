@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePages from "./components/Pages/HomePages";
 import DiabetesDefinition from "./components/Pages/DiabetesDefinition";
@@ -7,25 +8,14 @@ import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
-import ProfilSettingPage from "./components/Pages/ProfilSettingPage";
-
-
-
-import TablePage from "./components/Pages/TablePage";
-
+import ProfilSettingPage from "./components/Pages/ProfilSettingPage"
 
 
 function App() {
   return (
-<<<<<<< HEAD
+  <>
 
     <Router>
-      <>
-=======
-   <>
-     <Router>
-
->>>>>>> aab1302ded4eaffba9bdda385d14aed41d0bcbdb
       <Routes>
       <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -35,27 +25,16 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
         <Route path="/Signuppage" element={<Signuppage />} />
         <Route path="/foodpaths" element={<FoodPaths />} />
-
-
-
-      <Route path="/tablepage" element={<TablePage/>} />
-
-        
+        <Route path="/" element={<ProfilSettingPage/>}/>
+       
 
 
 
       </Routes>
-
-    
-    
-
-
-
-    </Router> 
-
-
+    </Router>
+   
     </>
-
   );
 }
+
 export default App;
