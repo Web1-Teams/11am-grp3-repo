@@ -1,3 +1,4 @@
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import HomePages from "./components/Pages/HomePages";
 import DiabetesDefinition from "./components/Pages/DiabetesDefinition";
@@ -9,10 +10,12 @@ import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
 import TablePage from "./components/Pages/TablePage";
 import Foodsnack from "./components/FoodSnack";
+import CardMunual from "./components/Pages/CardMunual";
 function App() {
   return (
-   <>
     <Router>
+         <>
+
       <Routes>
       <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -24,9 +27,13 @@ function App() {
         <Route path="/foodpaths" element={<FoodPaths />} />
       <Route path="/tablepage" element={<TablePage/>} />
       </Routes>
+      <Foodsnack/>
+      <CardMunual/>
+      </>
+
     </Router>
-    <Foodsnack/>
-    </>
+
+    
   );
 }
 export default App;
