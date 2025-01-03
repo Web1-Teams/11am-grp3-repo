@@ -1,0 +1,17 @@
+.Font_Of_paragraph_type1{
+    /* background-color:#c6e7ff; */
+    text-align: left;
+    font-family: serif;
+    font-size: 1.7rem;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .Font_Of_paragraph_type1 {
+      font-size: 1rem;
+      line-height: 1.4;
+      padding: 15px;
+    }
+  }

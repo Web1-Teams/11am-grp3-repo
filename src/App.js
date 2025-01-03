@@ -9,13 +9,15 @@ import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
 
 
+
 import TablePage from "./components/Pages/TablePage";
+
 
 
 function App() {
   return (
    <>
-    <Router>
+     <Router>
       <Routes>
       <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -26,13 +28,21 @@ function App() {
         <Route path="/Signuppage" element={<Signuppage />} />
         <Route path="/foodpaths" element={<FoodPaths />} />
 
+
+
       <Route path="/tablepage" element={<TablePage/>} />
 
         
 
 
+
       </Routes>
-    </Router>
+
+    </Router> 
+
+
+    
+
 
     </>
   );

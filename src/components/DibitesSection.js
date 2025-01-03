@@ -5,7 +5,7 @@ import "./DibitesSection.css";
   {/*Definition of diabetes*/}
   <div className="BackGround_diabetes">
     <div className="diabetes">
-      <h1 className="def_of_diabetes">Definition of diabetes</h1> <br />
+      <h1 className="def_of_diabetes">Definition of diabetes</h1>
       <div className="Font_Of_paragraph">
         <p>
           Diabetes is a chronic health condition that occurs when the body
@@ -24,13 +24,13 @@ import "./DibitesSection.css";
     <h1> What is Insulin ? </h1>
     <p>
       It is a hormone secreted by the beta cells in the pancreas (a small organ
-      located behind the stomach) <br />
+      located behind the stomach) 
       and is responsible for using glucose after it reaches the bloodstream to
-      obtain energy for daily activities. <br />
+      obtain energy for daily activities. 
       It also plays a crucial role in regulating blood sugar (glucose) levels in
-      the body. <br />
+      the body. 
       Without the secretion of this insulin or the inability to use it, blood
-      sugar remains high, which causes diabetes. <br />
+      sugar remains high, which causes diabetes.
     </p>
   </div>
 </>
