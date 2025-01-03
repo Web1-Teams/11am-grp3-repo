@@ -9,7 +9,7 @@ import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
 import ProfilSettingPage from "./components/Pages/ProfilSettingPage";
-
+import Challengepage from "./components/Pages/Challengepage";
 
 
 import TablePage from "./components/Pages/TablePage";
@@ -18,8 +18,8 @@ import TablePage from "./components/Pages/TablePage";
 
 function App() {
   return (
+      <Router>
    <>
-     <Router>
 
       <Routes>
       <Route path="/" element={<HomePages />} />
@@ -38,10 +38,13 @@ function App() {
         
 
 </Routes>
+<Challengepage/>
 
-      </Routes>
+</>
+</Router> 
 
-    </>
+
+ 
 
   );
 }
