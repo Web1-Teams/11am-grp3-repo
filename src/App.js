@@ -8,7 +8,6 @@ import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
-import ProfilSettingPage from "./components/Pages/ProfilSettingPage";
 
 
 
@@ -38,9 +37,8 @@ function App() {
         
 
 </Routes>
-
-      </Routes>
-
+      
+</Router>
     </>
 
   );
