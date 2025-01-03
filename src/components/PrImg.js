@@ -1,15 +1,15 @@
 import "./PrImg.css";
-import image from '../images/UnknownUser.jpg';
+
 function PrImg () {
     return (
-        <div className="Profile-img-container mb-3">
+        <div>
             <img 
-            src = {image}
+            src = "https://via.placeholder.com/500"
             className="img-fluid rounded-circle"
             alt= "..."
             />
 
-            <button type = "button" className="btn btn-primary btn-sm mt-3">
+            <button type = "button" className="btn btn-primary btn-custom">
                 Change Photo
             </button>
         </div>

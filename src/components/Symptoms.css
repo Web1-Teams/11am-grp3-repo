@@ -1,50 +1,46 @@
 .Type1_symptoms{
-    display: flex;
-    flex-direction: row;
- }
- .list_and_definition{
-    background-color: white;
-    /* width:%"; */
+  display: flex;
+  flex-direction: row;
+}
+.list_and_definition{
+  background-color: white;
+  /* width:%"; */
 }
 .list_and_definition>h1{
-    font-family: serif;
-    font-size: 3rem;
-    font-weight: 200;
-     width:"50%" 
+  font-family: serif;
+  font-size: 3rem;
+  font-weight: 200;
+   width:"50%" 
 }
 .list_and_definition>h2{
-    font-family: serif;
-   font-size: 1.70rem;
-   font-weight: 100;
+  font-family: serif;
+ font-size: 1.70rem;
+ font-weight: 100;
 
 } 
 .list_and_definition>ul{
-    font-family: serif;
-     font-size: 1.70rem;
-     font-weight: 100;
-      width:"50%" 
+  font-family: serif;
+   font-size: 1.70rem;
+   font-weight: 100;
+    width:"50%" 
 
 } 
-@media (max-width: 768px) {
-    .Type1_symptoms {
-      flex-direction: column;
-      padding: 15px;
-    }
-  
-    img {
-      margin-bottom: 20px;
-    }
-  
-    .list_and_definition h1 {
-      font-size: 1.8rem;
-    }
-  
-    .list_and_definition h2 {
-      font-size: 1.3rem;
-    }
-  
-    .list_and_definition ul {
-      font-size: 1rem;
-      padding-left: 15px;
-    }
-  }
+/* .list_and_definition>ul{
+  font-family: serif;
+   font-size: 1.3rem;
+   font-weight: 100;
+    width:"70%" 
+
+} 
+.list_and_definition>h1{
+  font-family: serif;
+  font-size: 2.5rem;
+  font-weight: 200;
+   width:"100%" 
+}
+.list_and_definition>h3{
+  font-family: serif;
+ font-size: 1.5rem;
+ font-weight: 100;
+
+} */
