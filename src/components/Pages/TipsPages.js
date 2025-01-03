@@ -24,7 +24,7 @@ function TipsPages() {
 <Titell21/>
     
 
-   <h2>
+   <h2 >
      Diabetics need to follow a healthy lifestyle and manage their blood sugar levels well to maintain their health. Here are some
    </h2>
 

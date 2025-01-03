@@ -15,6 +15,4 @@ const Definition = (props) => {
 };
 
 export default Definition;
-// "/Images/inDefinition.jpg"
-// What Is Diabetes?
-// What Is Insulin?
+
