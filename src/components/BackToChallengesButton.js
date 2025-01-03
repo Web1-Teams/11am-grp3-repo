@@ -1,4 +1,4 @@
-
+import './BackToChallengesButton.css'
 const BackToChallenges =()=>{
     return (
         <a href="index.html" class="btn btn-outline-primary mb-4">

@@ -10,14 +10,16 @@ import FoodPaths from "./components/Pages/FoodPaths";
 import ProfilSettingPage from "./components/Pages/ProfilSettingPage";
 
 
+
 import TablePage from "./components/Pages/TablePage";
+
 
 
 function App() {
   return (
-   
-    <Router>
-      <>
+   <>
+     <Router>
+
       <Routes>
       <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -28,18 +30,26 @@ function App() {
         <Route path="/Signuppage" element={<Signuppage />} />
         <Route path="/foodpaths" element={<FoodPaths />} />
 
+
+
       <Route path="/tablepage" element={<TablePage/>} />
 
         
 
 
+
       </Routes>
+
     
     
-< ProfilSettingPage/>
-</>
-</Router>
- 
+
+
+
+    </Router> 
+
+
+    </>
+
   );
 }
 export default App;
