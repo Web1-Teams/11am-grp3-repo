@@ -7,16 +7,19 @@ import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
-import Definition from "./components/Definition";
-import DibitesSection from "./components/DibitesSection";
-import TypesOfMeals from "./components/TypesOfMeals";
-import BackToChallenges from "./components/BackToChallengesButton";
+
+
+
+import TablePage from "./components/Pages/TablePage";
+
+
+
 function App() {
   return (
    <>
      <Router>
       <Routes>
-        <Route path="/" element={<HomePages />} />
+      <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
         <Route path="/tips" element={<TipsPages />} />
         <Route path="/type1" element={<Type1 />} />
@@ -26,14 +29,22 @@ function App() {
         <Route path="/foodpaths" element={<FoodPaths />} />
 
 
+
+      <Route path="/tablepage" element={<TablePage/>} />
+
+        
+
+
+
       </Routes>
+
     </Router> 
 
 
     
 
+
     </>
   );
 }
-
 export default App;

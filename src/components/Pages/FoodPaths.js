@@ -35,12 +35,8 @@ return(
 
 
        imgoption="/photos/meal.jpg"
-
-      choice=" If you want us to give you a ready-made schedule 
-            that includes a complete menu for breakfast lunch and dinner
-             suits your calories,"
-      imgoption="/photos/meal.jpg"
-
+      
+       
     />
     <Footer/>
   </div>
