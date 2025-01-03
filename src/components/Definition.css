@@ -42,68 +42,34 @@
     display: flex;
     flex-direction: column;
 } 
-
-@media (max-width: 768px){
-    .Head_of_def {
-        flex-direction: column; 
-       align-items: center; 
+/* @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
-
-    .what_is_diabetes {
-        width: 90%; 
+  
+    .textStyle {
+      margin: 10px 0;
     }
-    .what_is_diabetes > h1 {
-        font-size: 2rem; 
-        text-align: center; 
+  
+    img {
+      margin: 10px 0;
     }
-}
+  } */
 
-@media (max-width: 1024px) {
-    .Head_of_def {
-        flex-direction: row; 
-        justify-content: space-around;
+  @media (max-width: 768px) {
+    .Head_of_def, .start_type1 ,.start_type2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
-
-    .what_is_diabetes {
-        width: 95%; 
+    img {
+      margin-bottom: 20px;
+      width: 100%;
     }
-
-    .what_is_diabetes > h1 {
-        font-size: 2.25rem; 
+  
+    .what_is_diabetes, .title_type1 ,.start_type2 {
+      margin: 0;
     }
-}
-
-@media (min-width: 1200px) {
-    .Head_of_def {
-        justify-content: center; 
-    }
-
-    .what_is_diabetes {
-        width: 70%; 
-    }
-
-    .what_is_diabetes > h1 {
-        font-size: 2.5rem; 
-    }
-
-
-    body {
-        padding-left: 20px;
-        padding-right: 20px;
-        background-size: contain; 
-    }
-
-    .what_is_diabetes > h1 {
-        font-size: 2rem;
-    }
-
-    
-}
-
-@media (min-width: 1200px) {
-   
-
-    .what_is_diabetes > h1 {
-        font-size: 3rem; 
-    }
-}
+  }

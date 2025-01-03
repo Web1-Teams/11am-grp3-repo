@@ -10,8 +10,8 @@
 
     text-align:left;
     font-family: serif;
-    font-size: 1.30rem;
-     justify-content: center;
+    font-size: 1.5rem;
+    justify-content: center;
     align-items: center;
     width: 70%;
 
@@ -43,7 +43,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 100%;
 }
 .insulin{
     padding-left: 18%;
@@ -59,7 +59,56 @@
 .insulin>p{
     text-align:left;
     font-family: serif;
-    font-size: 1.30rem;
+    font-size: 1.5rem;
     align-items:center;
      /* width: 60%; */
 }
+/* @media (max-width: 768px) {
+    .BackGround_diabetes {
+      padding: 10px;
+    }
+  
+    .def_of_diabetes,
+    .insulin h1 {
+      font-size: 1.5rem;
+    }
+  
+    .Font_Of_paragraph,
+    .insulin p {
+      font-size: 1rem;
+    }
+  
+    img {
+      margin: 10px 0;
+      max-width: 100%;
+    }
+  } */
+  @media (max-width: 768px) {
+    .BackGround_diabetes {
+      flex-direction: column;
+
+    }
+  
+    .diabetes {
+      order: 1; /* Diabetes section stays at the top */
+    }
+  
+    img {
+      order: 2; /* Image moves to the middle */
+      margin: 20px 0;
+    }
+  
+    .insulin {
+      order: 3; /* Insulin section moves to the bottom */
+    }
+  
+    .def_of_diabetes,
+    .insulin h1 {
+      font-size: 1.5rem;
+    }
+  
+    .Font_Of_paragraph,
+    .insulin p {
+      font-size: 1rem;
+    }
+  } 

@@ -3,6 +3,7 @@ import Hheadar from "../Hheadar";
 import Nav from "../Nav";
 import Footer from "../Footer";
 import Types from "../Types";
+import DibitesSection from "../DibitesSection";
 // import Symptoms from "../Symptoms";
 
 const DiabetesDefinition =()=>{
@@ -19,6 +20,7 @@ const DiabetesDefinition =()=>{
                 styles={{ containerStyle: "Head_of_def", textStyle: "what_is_diabetes" }}
                 imagePosition="left"
             />
+            <DibitesSection />
             <Types />
             <Footer />
         </>
