@@ -7,26 +7,21 @@ import Type1 from "./components/Pages/Type1";
 import Type2 from "./components/Pages/Type2";
 import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
-import FoodPaths from "./components/Pages/FoodPaths";
-
+ import FoodPaths from "./components/Pages/FoodPaths";
 import ProfilSettingPage from "./components/Pages/ProfilSettingPage";
-import Challengepage from "./components/Pages/Challengepage";
-
-
 import TablePage from "./components/Pages/TablePage";
-
-
-import ProfilSettingPage from "./components/Pages/ProfilSettingPage"
-
-
+import Foodchallen from "./components/Pages/Foodchallen";
+ import Fintnesschallengepage from "./components/Pages/Fintnesschallengepage";
+import BackToChallenges from "./components/BackToChallengesButton";
+import Challengepage from "./components/Pages/Challengepage";
+import BackTochallengesButton from"./components/BackToChallengesButton"    
 
 function App() {
   return (
-    <>
+     
 
-      <Router>
-  
- 
+        <>
+              <Router>
       <Routes>
       <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -37,26 +32,31 @@ function App() {
         <Route path="/Signuppage" element={<Signuppage />} />
         <Route path="/foodpaths" element={<FoodPaths />} />
         <Route path="/" element={<ProfilSettingPage/>}/>
-       
+        <Route path="/food" element={<Foodchallen/>}/> 
+        <Route path="/fintness" element={< Fintnesschallengepage/>}/>
 
 
 
 
-      <Route path="/tablepage" element={<TablePage/>} />
+          <Route path="/challenge" element={<Challengepage/>} />
+           
+          <Route path="/food" element={<Foodchallen/>}/> 
+         
 
         
+          </Routes> 
 
-</Routes>
-<Challengepage/>
-
+   
+   </Router>
+   
+        </>
+    
+  
 
  
 
 
-    
-    </Router>
    
-    </>
 
   );
 }

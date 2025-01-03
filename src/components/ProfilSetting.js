@@ -17,11 +17,11 @@ const ProfileSettings = () => {
             <div className="d-flex  flex-column  ">
                 <div className="d-flex justify-content-start  align-items-center" >
               <RadioButton name="gender" id="female" label="Female" />
-              <img src="/Images/femal.gif"/>
+              <img src="/Images/femal.gif" alt=""/>
               </div>
               <div className="d-flex justify-content-start  align-items-center">
               <RadioButton name="gender" id="male" label="Male" />
-              <img src="/Images/male.gif"/>
+              <img src="/Images/male.gif" alt=""/>
               </div>
             </div>
           </div>

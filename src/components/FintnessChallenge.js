@@ -1,6 +1,7 @@
 import "./FintnessChallenge.css"
 export default function FintnessChallenge(){
     return(
+
         <div className="row g-4">
   {/* Walking */}
   <div className="col-md-6">
