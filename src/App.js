@@ -10,11 +10,11 @@ import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
 import TablePage from "./components/Pages/TablePage";
 import Foodsnack from "./components/FoodSnack";
-import CardMunual from "./components/Pages/CardMunual";
 function App() {
   return (
+    <>
+
     <Router>
-         <>
 
       <Routes>
       <Route path="/" element={<HomePages />} />
@@ -27,11 +27,9 @@ function App() {
         <Route path="/foodpaths" element={<FoodPaths />} />
       <Route path="/tablepage" element={<TablePage/>} />
       </Routes>
-      <Foodsnack/>
-      <CardMunual/>
-      </>
 
     </Router>
+    </>
 
     
   );
