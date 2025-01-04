@@ -1,6 +1,8 @@
 import React from 'react';
 import './Cardpr.css'; 
 import Button2 from "./Button2";
+import image from '../images/UnknownUser.jpg';
+
 import { Link } from "react-router-dom";
 
 function Cardpr() {
@@ -9,14 +11,14 @@ function Cardpr() {
       <div className="row g-0">
         <div className="col-md-4">
           <img
-            src="https://via.placeholder.com/500"
+            src={image}
             id="img-fluid"
             alt="..."
           />
           <div id="spacing">
             <Link to= "/" className="btn btn-primary btn-custom">Home</Link>
-            < Link to= "/tablepage" className="btn btn-primary btn-custom">Table1</Link>
-            <Link to= "/tablepage" className="btn btn-primary btn-custom"Button2 >Table2</Link>
+            < Link to= "/TablePage" className="btn btn-primary btn-custom">Table1</Link>
+            <Link to= "/CardMunual" className="btn btn-primary btn-custom">Table2</Link>
             <Link to= "/profile-setting" className="btn btn-primary btn-custom">Profile Setting</Link>
           </div>
         </div>

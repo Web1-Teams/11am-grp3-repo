@@ -5,7 +5,7 @@ const TitelImage =()=>{
 return(
     <div>
         <h1 className="hh">Food schedule</h1>
-<img className="imggg" src={imgg} ></img>
+<img className="imggg" src={imgg}  ></img>
 
     </div>
 

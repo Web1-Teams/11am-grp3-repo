@@ -1,17 +1,16 @@
 import "./PrImg.css";
+import image from '../images/UnknownUser.jpg';
 
 function PrImg () {
     return (
         <div>
             <img 
-            src = "https://via.placeholder.com/500"
+            src ={image}
             className="img-fluid rounded-circle"
             alt= "..."
             />
 
-            <button type = "button" className="btn btn-primary btn-custom">
-                Change Photo
-            </button>
+            
         </div>
     );
 }
