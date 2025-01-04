@@ -1,112 +1,112 @@
 /*  Phones  */
 
 @media (max-width: 600px) {
+    .About-Diabetes {
+      padding: 10px;
+      margin: 10px auto;
+    }
+  
+    .About-Diabetes .content2 {
+      flex-direction: column;
+    }
+  
+    .About-Diabetes .about-photo {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 768px) {
+    .dianame {
+      font-size: 40px;
+    }
+  
+    .About-Diabetes {
+      max-width: 800px;
+    }
+  }
+  
+  /*  Desktops  */
+  @media (min-width: 769px) and (max-width: 1400px) {
+    .dianame {
+      font-size: 45px;
+    }
+  
+    .About-Diabetes .content2 {
+      gap: 10px;
+    }
+  }
+  
+  
   .About-Diabetes {
-    padding: 10px;
-    margin: 10px auto;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+   /* background-color: #C9E6F0;*/
+   background-color: var(--color-1);
+    max-width: 1000px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: serif;
   }
-
+  
+  .About-Diabetes h1 {
+    font-size: 30px;
+    color: #005f73;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
   .About-Diabetes .content2 {
-    flex-direction: column;
+    display: flex;
+    gap: 20px;
   }
-
+  
   .About-Diabetes .about-photo {
-    width: 100%;
+    width: 300px;
+    border-radius: 10px;
   }
-}
-
-@media (min-width: 601px) and (max-width: 768px) {
-  .dianame {
-    font-size: 40px;
-  }
-
-  .About-Diabetes {
-    max-width: 800px;
-  }
-}
-
-/*  Desktops  */
-@media (min-width: 769px) and (max-width: 1400px) {
-  .dianame {
-    font-size: 45px;
-  }
-
-  .About-Diabetes .content2 {
+  
+  .About-Diabetes .text-content {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
+    flex: 1;
   }
-}
-
-
-.About-Diabetes {
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 10px;
- /* background-color: #C9E6F0;*/
- background-color: var(--color-1);
-  max-width: 1000px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  font-family: serif;
-}
-
-.About-Diabetes h1 {
-  font-size: 30px;
-  color: #005f73;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.About-Diabetes .content2 {
-  display: flex;
-  gap: 20px;
-}
-
-.About-Diabetes .about-photo {
-  width: 300px;
-  border-radius: 10px;
-}
-
-.About-Diabetes .text-content {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  flex: 1;
-}
-
-.About-Diabetes .card-text {
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: justify;
-}
-.About-Diabetes:hover {
-  transform: translateY(5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-}
-/* learn more*/
-/* From Uiverse.io by AqFox */
-.custom-btn {
-  width: 130px;
-  height: 40px;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px 25px;
-
-  transition: all 0.3s ease;
-
-  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
-    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
-
-  font-size: 16px;
-}
-
-.btn-2 {
-  margin-top: 10px;
-  background-color:var(--color-4);
-  border: none;
-}
-
-.custom-btn:hover {
-  background: linear-gradient(90deg, var(--color-3), #003f50);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  transform: scale(1.05);
-}
+  
+  .About-Diabetes .card-text {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  .About-Diabetes:hover {
+    transform: translateY(5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  /* learn more*/
+  /* From Uiverse.io by AqFox */
+  .custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+  
+    transition: all 0.3s ease;
+  
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+      7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  
+    font-size: 16px;
+  }
+  
+  .btn-2 {
+    margin-top: 10px;
+    background-color:var(--color-4);
+    border: none;
+  }
+  
+  .custom-btn:hover {
+    background: linear-gradient(90deg, var(--color-3), #003f50);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }

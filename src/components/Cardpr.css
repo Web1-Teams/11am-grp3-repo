@@ -2,49 +2,52 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.card-title {
+#card-title {
     font-size: 2rem;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 20px;
 }
 
-.img-fluid {
+#img-fluid {
     width: 220px;
     height: 220px;
+    border-radius: 150px;
     margin-left: 20px;
     margin-bottom: 8px;
     margin-top: 10px;
+    
 }
 
-.card {
+#card {
     max-width: 850px;
     margin: 100px auto;
     display: flex;
     min-height: 450px;
     border-radius: 20px;
-
+    background-color: rgb(233, 249, 249);
 }
 
-.name-info, .gender-bdate, .phone-country{
+#name-info, #gender-bdate, #phone-country {
     align-items: center;
     margin-bottom: 25px;
 }
 
-.email {
+#email {
     margin-bottom: 30px;
     margin-right: 10em;
 }
 
-.weight, .height{
+#weight, #height {
     margin-bottom: 18px;
     margin-right: 15.5em;
 }
-.diabetes-type{
+
+#diabetes-type {
     margin-right: 11em;
 }
 
-.label {
+#label {
     margin-right: 0.25em;
     font-weight: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -52,28 +55,28 @@ body {
     margin-left: 2em;
 }
 
-.value {
+#value {
     font-weight: normal;
     font-size: 16px;
     margin-right: 3em;
 }
 
 @media (max-width: 768px) {
-    .card-title {
+    #card-title {
         font-size: 1.5rem;
     }
 
-    .img-fluid {
+    #img-fluid {
         width: 150px;
         height: 150px;
     }
 
-    .label, .value {
+    #label, #value {
         font-size: 14px;
         margin-left: 1em;
     }
 
-    .card {
+    #card {
         max-width: 90%;
         margin-top: 20px;
     }

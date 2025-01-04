@@ -1,3 +1,4 @@
+
 import Hheadar from "../Hheadar";
 import Nav from "../Nav";
 import Cardpr from "../Cardpr";
@@ -12,8 +13,7 @@ function ProfilePages () {
         <Cardpr/>
         <Footer/>
         </div>
-       
 
-    )
+    );
 }
 export default ProfilePages;

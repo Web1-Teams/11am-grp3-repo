@@ -1,79 +1,74 @@
 import React from 'react';
 import './Cardpr.css'; 
-import Button2  from "./Button2";// استيراد ملف الـ CSS
-
+import Button2 from "./Button2";
+import { Link } from "react-router-dom";
 
 function Cardpr() {
   return (
-   
-      <div className="card mb-3">
-        <div className="row g-0">
-          <div className="col-md-4">
-              <img
-                src="https://via.placeholder.com/500"
-                className="img-fluid rounded-circle"
-                alt="..."
-
-              />
- <div class="spacing">
-        <Button2 text="Home" />
-        <Button2 text="Table 1"/>
-        <Button2 text="Table 2" />
-        <Button2 text="Profile settings"/>
+    <div id="card" className="mb-3">
+      <div className="row g-0">
+        <div className="col-md-4">
+          <img
+            src="https://via.placeholder.com/500"
+            id="img-fluid"
+            alt="..."
+          />
+          <div id="spacing">
+            <Link to= "/" className="btn btn-primary btn-custom">Home</Link>
+            < Link to= "/tablepage" className="btn btn-primary btn-custom">Table1</Link>
+            <Link to= "/tablepage" className="btn btn-primary btn-custom"Button2 >Table2</Link>
+            <Link to= "/profile-setting" className="btn btn-primary btn-custom">Profile Setting</Link>
           </div>
-          </div>
-          <div className="col-md-8">
-            <div className="card-body">
-              <h5 className="card-title">Personal Information</h5>
+        </div>
 
-              <div className="name-info">
-                <span className="label">First Name:</span>
-                <span className="value">John</span>
-                <span className="label">Last Name:</span>
-                <span className="value">Dom</span>
-              </div>
+        <div className="col-md-8">
+          <div className="card-body">
+            <h5 id="card-title">Personal Information</h5>
 
-              <div className="gender-bdate">
-                <span className="label">Birthday:</span>
-                <span className="value">24/6/2001</span>
-                <span className="label"> Gender:</span>
-                <span className="value">Male</span>
-              </div>
+            <div id="name-info">
+              <span id="label">First Name:</span>
+              <span id="value">John</span>
+              <span id="label">Last Name:</span>
+              <span id="value">Dom</span>
+            </div>
 
-              <div className="phone-country">
-                <span className="label">Phone:</span>
-                <span className="value">1232345</span>
-                <span className="label"> Country:</span>
-                <span className="value">Palestine</span>
-              </div>
+            <div id="gender-bdate">
+              <span id="label">Birthday:</span>
+              <span id="value">24/6/2001</span>
+              <span id="label">Gender:</span>
+              <span id="value">Male</span>
+            </div>
 
-              <div className="email">
-                <span className="label">Email:</span>
-                <span className="value">John123@gmail.com</span>
-              </div>
+            <div id="phone-country">
+              <span id="label">Phone:</span>
+              <span id="value">1232345</span>
+              <span id="label">Country:</span>
+              <span id="value">Palestine</span>
+            </div>
 
-              <div className="weight">
-                <span className="label">Weight:</span>
-                <span className="value">60kg</span>
-              </div>
+            <div id="email">
+              <span id="label">Email:</span>
+              <span id="value">John123@gmail.com</span>
+            </div>
 
-              <div className="height">
-                <span className="label">Height:</span>
-                <span className="value">160cm</span>
-              </div>
+            <div id="weight">
+              <span id="label">Weight:</span>
+              <span id="value">60kg</span>
+            </div>
 
-              <div className="diabetes-type">
-                <span className="label">Diabetes Type:</span>
-                <span className="value">Type 1</span>
-              </div>
-            
+            <div id="height">
+              <span id="label">Height:</span>
+              <span id="value">160cm</span>
+            </div>
+
+            <div id="diabetes-type">
+              <span id="label">Diabetes Type:</span>
+              <span id="value">Type 1</span>
             </div>
           </div>
         </div>
-       
-          
+      </div>
     </div>
-
   );
 }
 

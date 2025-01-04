@@ -8,24 +8,21 @@ import Loginpage from "./components/Pages/Loginpage";
 import Signuppage from "./components/Pages/Signuppage";
 import FoodPaths from "./components/Pages/FoodPaths";
 import ProfilSettingPage from "./components/Pages/ProfilSettingPage";
-
-
-
+import ProfilePages from "./components/Pages/ProfilePages";
 import TablePage from "./components/Pages/TablePage";
+
+
 
 
 
 function App() {
   return (
-<<<<<<< HEAD
 
-    <Router>
-      <>
-=======
-   <>
+
+
+  
      <Router>
 
->>>>>>> aab1302ded4eaffba9bdda385d14aed41d0bcbdb
       <Routes>
       <Route path="/" element={<HomePages />} />
         <Route path="/definition" element={<DiabetesDefinition />} />
@@ -35,11 +32,10 @@ function App() {
         <Route path="/login" element={<Loginpage />} />
         <Route path="/Signuppage" element={<Signuppage />} />
         <Route path="/foodpaths" element={<FoodPaths />} />
-
-
+        <Route path="/profile" element = {<ProfilePages/>}/>
+        <Route path="/profile-setting" element={<ProfilSettingPage/>} />
 
       <Route path="/tablepage" element={<TablePage/>} />
-
         
 
 
@@ -54,7 +50,6 @@ function App() {
     </Router> 
 
 
-    </>
 
   );
 }
