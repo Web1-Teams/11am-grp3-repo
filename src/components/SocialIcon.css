@@ -6,3 +6,21 @@
 
 
 }
+@media (max-width: 768px){
+    .icon {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+
+
+
+}
+@media(max-width:350px){
+
+    .icon{
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 10%;
+    }
+}

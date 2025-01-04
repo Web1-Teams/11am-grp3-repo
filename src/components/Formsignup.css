@@ -1,7 +1,7 @@
 .signup1
 {
 width:700px ;
-height: 1250px;
+height: 1260px;
 margin: auto;
 border-radius: 10px;
 margin-top: 10px;
@@ -11,11 +11,11 @@ background-color: rgb(244, 247, 247);
 .formforsignup{
     border-radius: 10px;
     width: 700px;
-    height: 1250px;
+    height: 1270px;
     /*text-align: center;
     justify-content: center;
     align-items: center;*/
-    box-shadow: #cff0ff 0px 10px 10px -5px;
+  
 }
 .headerforsignup{
     margin: 30px 300px ;
@@ -23,3 +23,64 @@ background-color: rgb(244, 247, 247);
     font-size: 25px;
     color: rgb(16, 137, 211);
 }
+@media (max-width: 768px) {
+    .signup1 {
+        width:300px ;
+        height: 2000px;
+        margin: auto;
+    }
+    .form-groub{
+        display: block;
+    }
+    .headerforsignup {
+    margin: 30px 100px ;
+  }
+  .formforsignup{
+    width:300px ;
+     height: 1970px;
+  }
+  
+ 
+}
+@media (min-width: 768px) {
+    .signup1 {
+        width:800px ;
+        height: 900px;
+        margin: auto;
+    }
+    .formforsignup{
+        width:800px ;
+         height: 900px;
+      }
+    .form-groub{
+        display: inline-block;
+        margin-left: 7px;
+       
+    }
+    
+    .headerforsignup {
+        margin-left:  350px ;
+      }
+}
+@media (min-width: 1024px) {
+    .signup1 {
+        width:700px ;
+        height: 1140px;
+
+    }
+    .formforsignup {
+        width: 700px;
+    height: 1110px;
+    }
+    .form-groub{
+        display: inline-block;
+        margin-left: 30px;
+    }
+   
+    .headerforsignup {
+        margin-left: 50%;
+        margin: 30px 300px ;
+    }
+
+ }
+

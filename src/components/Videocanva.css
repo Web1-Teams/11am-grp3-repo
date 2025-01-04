@@ -1,0 +1,11 @@
+.video-placeholder {
+    background-color: var(--secondary-color);
+    border-radius: 0.5rem;
+    min-height: 400px;
+}
+
+.video-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+}

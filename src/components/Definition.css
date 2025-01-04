@@ -33,6 +33,7 @@
     font-family: serif;
     font-size: 3rem;
     font-weight: 400;
+
 }
 
  .title_type1 #subTitle {
@@ -42,21 +43,20 @@
     display: flex;
     flex-direction: column;
 } 
-/* @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+
+@media (max-width: 768px){
+    .Head_of_def {
+        flex-direction: column; 
+       align-items: center; 
     }
-  
-    .textStyle {
-      margin: 10px 0;
+
+    .what_is_diabetes {
+        width: 90%; 
     }
-  
-    img {
-      margin: 10px 0;
+    .what_is_diabetes > h1 {
+        font-size: 2rem; 
+        text-align: center; 
     }
-  } */
 
   @media (max-width: 768px) {
     .Head_of_def, .start_type1 ,.start_type2 {
@@ -73,3 +73,4 @@
       margin: 0;
     }
   }
+}
